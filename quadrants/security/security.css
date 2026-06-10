@@ -1,0 +1,186 @@
+/* Security quadrant styles — scoped under #quadrant-security */
+/* Zero hardcoded colors — all values reference design tokens from variables.css */
+
+/* --- Card Content Layout --- */
+#quadrant-security .security-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    --hero-zone-height: 140px;
+}
+
+/* --- Hero Zone: fixed-height region above the table --- */
+/* Matches ops card hero zone height so both tables start at the same Y.
+ * Contains the score hero, label, timestamp, and sparkline (when available). */
+#quadrant-security .security-hero-zone {
+    height: var(--hero-zone-height);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 0.2rem;
+    padding: 0 0.2rem;
+    overflow: hidden;
+}
+
+/* --- Hero: grade letter + score + status pill in a row --- */
+#quadrant-security .security-hero {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+/* Grade letter — large colored text, no box */
+#quadrant-security .security-wgu-grade {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#quadrant-security .security-wgu-score {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1;
+}
+
+#quadrant-security .security-wgu-label {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+}
+
+#quadrant-security .security-timestamp {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-align: right;
+}
+
+/* Sparkline renders inside hero-zone when data is available */
+#quadrant-security .security-sparkline {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+#quadrant-security .security-sparkline svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#quadrant-security .security-sparkline-empty {
+    background: var(--surface-hover);
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+/* --- Table --- */
+#quadrant-security .security-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#quadrant-security .security-th {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    padding: 0.3rem 0.4rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+#quadrant-security .security-td {
+    font-size: 0.78rem;
+    padding: 0.35rem 0.4rem;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+}
+
+#quadrant-security tbody tr:last-child .security-td {
+    border-bottom: none;
+}
+
+/* --- Grade display: bold, colored by grade class --- */
+#quadrant-security .security-grade {
+    font-weight: 700;
+}
+
+#quadrant-security .grade-text-a {
+    color: var(--grade-a);
+}
+
+#quadrant-security .grade-text-b {
+    color: var(--grade-b);
+}
+
+#quadrant-security .grade-text-c {
+    color: var(--grade-c);
+}
+
+#quadrant-security .grade-text-d {
+    color: var(--grade-d);
+}
+
+#quadrant-security .grade-text-f {
+    color: var(--grade-f);
+}
+
+/* --- Penalty styling --- */
+#quadrant-security .penalty-zero {
+    color: var(--text-muted);
+}
+
+#quadrant-security .penalty-active {
+    color: var(--grade-f);
+    font-weight: 600;
+}
+
+/* --- Error State --- */
+#quadrant-security .security-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex: 1;
+}
+
+#quadrant-security .security-error-icon {
+    font-size: 1.5rem;
+}
+
+#quadrant-security .security-error-message {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* --- Refresh Error Banner (shown above retained table) --- */
+#quadrant-security .security-refresh-error {
+    background: var(--yellow-dim);
+    color: var(--text-muted);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* --- Empty State --- */
+#quadrant-security .security-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex: 1;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}

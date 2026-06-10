@@ -1,0 +1,52 @@
+/* Shared CSS Custom Properties — extracted from prototype styles */
+
+:root {
+    /* Grade colors */
+    --grade-a: #2d8a4e;
+    --grade-b: #5a9a3c;
+    --grade-c: #c9922e;
+    --grade-d: #c95e2e;
+    --grade-f: #c92e2e;
+
+    /* Status colors — semantic aliases for grade palette */
+    --status-green: var(--grade-a);
+    --status-yellow: var(--grade-c);
+    --status-red: var(--grade-f);
+
+    /* Theme colors */
+    --bg: #1a1a2e;
+    --surface: #222240;
+    --surface-hover: #2a2a50;
+    --text: #e8e8f0;
+    --text-muted: #9898b0;
+    --border: #3a3a5a;
+    --accent: #6c8cff;
+
+    /* Dim backgrounds for status indicators */
+    --green-dim: rgba(45, 138, 78, 0.15);
+    --yellow-dim: rgba(201, 146, 46, 0.15);
+    --red-dim: rgba(201, 46, 46, 0.15);
+
+    /* FSI status colors */
+    --fsi-optimal: #2d8a4e;
+    --fsi-stable: #5a9a3c;
+    --fsi-elevated: #c9922e;
+    --fsi-severe: #c95e2e;
+    --fsi-systemic: #c92e2e;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base body styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    min-height: 100vh;
+}

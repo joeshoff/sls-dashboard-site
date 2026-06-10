@@ -1,0 +1,24 @@
+{
+  "source": "insights",
+  "collected_at": "2026-06-09T16:55:46.680564+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-06-09T16:55:46.680564+00:00",
+      "generated_at": "2026-06-09T16:56:01.879969+00:00",
+      "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "input_sources": [
+        "fsi",
+        "etrc",
+        "incidents"
+      ]
+    },
+    "vp_summary": "FSI composite rose from 13 to 19 this week \u2014 still Stable, but moving the wrong direction. The incidents pillar jumped from 48 to 82 (Severe to Systemic), driven by 3 Major Incidents this week vs. 1 last week. Availability, sessions, and performance held Optimal. The incidents pillar is carrying 16.4 of the 19 total points \u2014 that's where the exposure is.\n\nETRC tells a different story. Enrollment Support & Ops remains at F (0.4/4.0) with 155 Major Days Breached (threshold: 25), 50% MI Error Budget consumed (threshold: 15%), and 1800 Minor Days Breached (threshold: 250). Post sits at C (2.4/4.0), failing Major Days Breached at 120 (threshold: 25). Pre holds B (2.8/4.0) but is bleeding on Minor Days Breached at 1575 (threshold: 250). Financial Enablement is the only group at A (3.6/4.0), held back only by MI Error Budget at 25% (threshold: 15%).\n\nThe divergence matters. FSI measures student-facing failures this week \u2014 and this week was messy but contained. ETRC measures cumulative SLA debt, and Enrollment Support & Ops is carrying massive unresolved breach backlog across all three components. That backlog means no capacity to absorb the next incident when it arrives. Post and Pre are failing on different dimensions but the pattern is the same: the teams are underwater on commitments made weeks ago, and a clean week doesn't fix that.",
+    "group_insights": {
+      "cd8818701b80c4907f97337bcd4bcb35": "Enrollment Support & Ops is failing all three ETRC components \u2014 155 Major Days Breached (6x threshold), 1800 Minor Days Breached (7x threshold), and 50% MI Error Budget consumed. Two of this week's three Major Incidents landed here (MI0007336, MI0007332), and the backlog hasn't moved week-over-week.",
+      "c0de17e81b8c84907f97337bcd4bcbad": "Financial Enablement holds A grade (3.6/4.0) with clean Major and Minor Days Breached performance. MI Error Budget at 25% (threshold: 15%) is the only miss, and MI0007330 is still open in Investigating state.",
+      "9c1c30801bc404907f97337bcd4bcb74": "Pre holds B (2.8/4.0) but Minor Days Breached at 1575 is 6x threshold and hasn't improved week-over-week. Major Days Breached at 30 is just over threshold, and MI Error Budget is clean at 0%.",
+      "58d26bec1b8c84907f97337bcd4bcb44": "Post sits at C (2.4/4.0), driven entirely by Major Days Breached at 120 (5x threshold). Minor Days Breached is clean at 125, MI Error Budget is at 0%, but the Major backlog hasn't moved and there's no sign of recovery."
+    }
+  },
+  "errors": []
+}

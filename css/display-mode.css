@@ -1,0 +1,62 @@
+/* display-mode.css — Display mode overrides shared across all pages
+ * Activated when ?display=true is in the URL.
+ * Assumes variables.css is loaded first.
+ *
+ * Display mode requirements (Req 13.1-13.5):
+ *   - 25% font increase for legibility at 15ft on 55" display
+ *   - Suppress hover states, pointer cursors, click-through affordances
+ *   - Hide navigation elements requiring mouse interaction
+ *   - Auto-refresh handled in JS (display-mode.js), not CSS
+ *   - On fetch failure: retain current data, no error modals
+ *
+ * Page-specific display mode overrides live in their own CSS files
+ * (e.g., operations.css has body.display-mode rules for operations-specific elements).
+ */
+
+/* ===== BASE DISPLAY MODE ===== */
+body.display-mode {
+    font-size: 125%;
+    cursor: default;
+}
+
+/* Suppress all hover effects */
+body.display-mode *:hover {
+    background: inherit !important;
+    border-color: inherit !important;
+}
+
+/* Suppress pointer cursor on interactive elements */
+body.display-mode [data-clickable],
+body.display-mode a,
+body.display-mode button {
+    cursor: default;
+    pointer-events: none;
+}
+
+/* ===== HIDE NAVIGATION ELEMENTS ===== */
+/* Back links, SEM navigation arrows, any mouse-dependent nav */
+body.display-mode .back-link,
+body.display-mode .nav-btn,
+body.display-mode .sem-nav-btn,
+body.display-mode [data-hide-display] {
+    display: none;
+}
+
+/* ===== SUPPRESS CLICK-THROUGH AFFORDANCES ===== */
+/* Cards that are normally clickable lose their visual cues */
+body.display-mode .card[data-clickable] {
+    border-color: var(--border);
+    pointer-events: none;
+}
+
+/* Hide click arrows or "view details" text */
+body.display-mode .click-arrow,
+body.display-mode .click-hint {
+    display: none;
+}
+
+/* ===== CHART SIZING IN DISPLAY MODE ===== */
+/* Charts get slightly more vertical space for readability at distance */
+body.display-mode .chart-container {
+    min-height: 300px;
+}

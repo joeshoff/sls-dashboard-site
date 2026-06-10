@@ -1,0 +1,254 @@
+/* Operations quadrant styles — scoped under #quadrant-operations */
+/* Zero hardcoded colors — all values use design tokens from variables.css */
+
+/* --- Card Content Layout --- */
+/* The quadrant-card is display:flex column — child elements fill vertically.
+ * The hero-zone height is shared with security for cross-card alignment. */
+#quadrant-operations .quadrant-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    --hero-zone-height: 140px;
+}
+
+/* --- Hero Zone: fixed-height region above the table --- */
+/* Contains SLS ETRC grade (primary) and FSI score (secondary).
+ * Height locked so the table always starts at the same vertical position. */
+#quadrant-operations .ops-hero-zone {
+    height: var(--hero-zone-height);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* --- Hero Row: SLS ETRC grade left, FSI compact beside it --- */
+
+#quadrant-operations .ops-hero-row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+    flex-shrink: 0;
+}
+
+/* --- SLS ETRC Hero Grade --- */
+
+#quadrant-operations .ops-etrc-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#quadrant-operations .ops-etrc-grade {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#quadrant-operations .ops-etrc-label {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    margin-top: 0.15rem;
+}
+
+/* --- FSI Compact (secondary display, vertically centered with grade letter) --- */
+
+#quadrant-operations .ops-fsi-compact {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    align-self: flex-start;
+    margin-top: 0.45rem;
+}
+
+#quadrant-operations .ops-fsi-score-sm {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text);
+}
+
+#quadrant-operations .ops-fsi-label-inline {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+#quadrant-operations .ops-fsi-unavailable {
+    color: var(--text-muted);
+}
+
+/* --- Status Badge --- */
+
+#quadrant-operations .ops-status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+#quadrant-operations .ops-status-badge[data-severity="green"] {
+    background: var(--green-dim);
+    color: var(--fsi-optimal);
+}
+
+#quadrant-operations .ops-status-badge[data-severity="amber"] {
+    background: var(--yellow-dim);
+    color: var(--fsi-elevated);
+}
+
+#quadrant-operations .ops-status-badge[data-severity="red"] {
+    background: var(--red-dim);
+    color: var(--fsi-severe);
+}
+
+#quadrant-operations .ops-status-badge[data-severity="yellow"] {
+    background: var(--yellow-dim);
+    color: var(--fsi-elevated);
+}
+
+/* --- FSI Trend Indicator --- */
+
+#quadrant-operations .ops-fsi-trend {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-left: 0.25rem;
+}
+
+#quadrant-operations .ops-fsi-trend[data-direction="up"] {
+    color: var(--fsi-severe);
+}
+
+#quadrant-operations .ops-fsi-trend[data-direction="down"] {
+    color: var(--fsi-optimal);
+}
+
+#quadrant-operations .ops-fsi-trend[data-direction="flat"] {
+    color: var(--text-muted);
+}
+
+/* --- Sparkline --- */
+
+#quadrant-operations .ops-sparkline {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+#quadrant-operations .ops-sparkline svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#quadrant-operations .ops-sparkline-empty {
+    background: var(--surface-hover);
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+/* --- Function Row Table --- */
+
+#quadrant-operations .ops-fn-table {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+}
+
+#quadrant-operations .ops-fn-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.78rem;
+}
+
+#quadrant-operations .ops-fn-table thead th {
+    text-align: left;
+    padding: 0.3rem 0.4rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Center the Grade and MI column headers to match their data alignment */
+#quadrant-operations .ops-fn-table thead th:nth-child(2),
+#quadrant-operations .ops-fn-table thead th:nth-child(3) {
+    text-align: center;
+}
+
+#quadrant-operations .ops-fn-row td {
+    padding: 0.35rem 0.4rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    vertical-align: middle;
+}
+
+#quadrant-operations .ops-fn-row:last-child td {
+    border-bottom: none;
+}
+
+#quadrant-operations .ops-fn-name {
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130px;
+}
+
+#quadrant-operations .ops-fn-grade {
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.85rem;
+    width: 50px;
+}
+
+#quadrant-operations .ops-fn-mi-count {
+    text-align: center;
+    font-weight: 600;
+    width: 50px;
+}
+
+#quadrant-operations .ops-fn-empty {
+    padding: 1rem;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+/* --- Error States --- */
+
+#quadrant-operations .ops-error-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex: 1;
+}
+
+#quadrant-operations .ops-error-icon {
+    font-size: 1.5rem;
+}
+
+#quadrant-operations .ops-error-message {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+#quadrant-operations .ops-refresh-error {
+    background: var(--yellow-dim);
+    color: var(--fsi-elevated);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    flex-shrink: 0;
+}

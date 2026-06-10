@@ -1,0 +1,154 @@
+/* Finance quadrant styles — scoped under #quadrant-finance */
+/* Zero hardcoded colors — all values reference design tokens from variables.css */
+
+/* --- Card Content Layout --- */
+#quadrant-finance .finance-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    --hero-zone-height: 140px;
+}
+
+/* --- Hero Zone: compact region above the table --- */
+#quadrant-finance .finance-hero-zone {
+    height: 44px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 0.1rem;
+    padding: 0 0.2rem;
+    overflow: hidden;
+}
+
+/* --- Score display --- */
+#quadrant-finance .finance-score {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* --- Period label --- */
+#quadrant-finance .finance-period {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+/* --- Timestamp --- */
+#quadrant-finance .finance-timestamp {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-align: right;
+}
+
+/* --- Table --- */
+#quadrant-finance .finance-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+/* Column widths: narrow row header, balanced data columns */
+#quadrant-finance .finance-table col:first-child { width: 28%; }
+#quadrant-finance .finance-table col:nth-child(2) { width: 26%; }
+#quadrant-finance .finance-table col:nth-child(3) { width: 26%; }
+#quadrant-finance .finance-table col:nth-child(4) { width: 20%; }
+
+#quadrant-finance .finance-th {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.3rem 0.4rem;
+    font-weight: 600;
+    text-align: right;
+    border-bottom: 1px solid var(--border);
+}
+
+/* First column header (category name) left-aligned */
+#quadrant-finance .finance-th:first-child {
+    text-align: left;
+}
+
+#quadrant-finance .finance-td {
+    font-size: 0.78rem;
+    padding: 0.35rem 0.4rem;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+}
+
+#quadrant-finance tbody tr:last-child .finance-td {
+    border-bottom: none;
+}
+
+/* --- Variance color classes --- */
+#quadrant-finance .variance-green {
+    color: var(--status-green);
+}
+
+#quadrant-finance .variance-yellow {
+    color: var(--status-yellow);
+}
+
+#quadrant-finance .variance-red {
+    color: var(--status-red);
+}
+
+/* --- Dollar values: right-aligned, tabular numerals for column alignment --- */
+#quadrant-finance .finance-dollar {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+/* --- Variance column: right-aligned, bold for emphasis --- */
+#quadrant-finance .finance-variance {
+    text-align: right;
+    font-weight: 600;
+}
+
+/* --- Error State --- */
+#quadrant-finance .finance-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex: 1;
+}
+
+#quadrant-finance .finance-error-icon {
+    font-size: 1.5rem;
+}
+
+#quadrant-finance .finance-error-message {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* --- Refresh Error Banner (shown above retained table) --- */
+#quadrant-finance .finance-refresh-error {
+    background: var(--yellow-dim);
+    color: var(--text-muted);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* --- Empty State --- */
+#quadrant-finance .finance-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex: 1;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}

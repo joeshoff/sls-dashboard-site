@@ -1,0 +1,46 @@
+{
+  "quadrants": [
+    {
+      "slotId": "quadrant-delivery",
+      "modulePath": "./quadrants/delivery/index.js",
+      "label": "Delivery",
+      "icon": "📦",
+      "status": "placeholder",
+      "position": "grid"
+    },
+    {
+      "slotId": "quadrant-operations",
+      "modulePath": "./quadrants/operations/index.js",
+      "label": "Operations",
+      "icon": "⚙️",
+      "status": "active",
+      "position": "grid"
+    },
+    {
+      "slotId": "quadrant-security",
+      "modulePath": "./quadrants/security/index.js",
+      "label": "Security",
+      "icon": "🔒",
+      "status": "active",
+      "position": "grid"
+    },
+    {
+      "slotId": "quadrant-finance",
+      "modulePath": "./quadrants/finance/index.js",
+      "label": "Finance",
+      "icon": "💰",
+      "status": "active",
+      "position": "grid"
+    },
+    {
+      "slotId": "quadrant-sentiment",
+      "modulePath": "./quadrants/sentiment/index.js",
+      "label": "Student Sentiment",
+      "icon": "💬",
+      "status": "active",
+      "position": "center-overlay"
+    }
+  ],
+  "refreshInterval": 300000,
+  "loadTimeout": 5000
+}

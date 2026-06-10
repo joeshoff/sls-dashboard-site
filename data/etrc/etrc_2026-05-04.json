@@ -1,0 +1,56 @@
+{
+  "source": "etrc",
+  "collected_at": "2026-05-10T10:00:00+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-05-10T10:00:00+00:00"
+    },
+    "groups": [
+      {
+        "group_name": "Enrollment Support & Ops",
+        "group_sys_id": "cd8818701b80c4907f97337bcd4bcb35",
+        "total_score": 0.8,
+        "grade": "D",
+        "components": [
+          { "name": "Major Days Breached", "value": 180.0, "weight": 0.4, "passing_threshold": 25.0, "passing": false, "grade": "F", "score": 0.0 },
+          { "name": "MI Error Budget", "value": 50.0, "weight": 0.4, "passing_threshold": 15.0, "passing": false, "grade": "D", "score": 1.0 },
+          { "name": "Minor Days Breached", "value": 2400.0, "weight": 0.2, "passing_threshold": 250.0, "passing": false, "grade": "F", "score": 0.0 }
+        ]
+      },
+      {
+        "group_name": "Financial Enablement",
+        "group_sys_id": "c0de17e81b8c84907f97337bcd4bcbad",
+        "total_score": 2.4,
+        "grade": "C",
+        "components": [
+          { "name": "Major Days Breached", "value": 35.0, "weight": 0.4, "passing_threshold": 25.0, "passing": false, "grade": "B", "score": 3.0 },
+          { "name": "MI Error Budget", "value": 45.0, "weight": 0.4, "passing_threshold": 15.0, "passing": false, "grade": "D", "score": 1.0 },
+          { "name": "Minor Days Breached", "value": 220.0, "weight": 0.2, "passing_threshold": 250.0, "passing": true, "grade": "A", "score": 4.0 }
+        ]
+      },
+      {
+        "group_name": "Pre",
+        "group_sys_id": "9c1c30801bc404907f97337bcd4bcb74",
+        "total_score": 1.6,
+        "grade": "D",
+        "components": [
+          { "name": "Major Days Breached", "value": 60.0, "weight": 0.4, "passing_threshold": 25.0, "passing": false, "grade": "C", "score": 2.0 },
+          { "name": "MI Error Budget", "value": 20.0, "weight": 0.4, "passing_threshold": 15.0, "passing": false, "grade": "C", "score": 2.0 },
+          { "name": "Minor Days Breached", "value": 2200.0, "weight": 0.2, "passing_threshold": 250.0, "passing": false, "grade": "F", "score": 0.0 }
+        ]
+      },
+      {
+        "group_name": "Post",
+        "group_sys_id": "58d26bec1b8c84907f97337bcd4bcb44",
+        "total_score": 1.2,
+        "grade": "D",
+        "components": [
+          { "name": "Major Days Breached", "value": 175.0, "weight": 0.4, "passing_threshold": 25.0, "passing": false, "grade": "F", "score": 0.0 },
+          { "name": "MI Error Budget", "value": 12.0, "weight": 0.4, "passing_threshold": 15.0, "passing": true, "grade": "B", "score": 3.0 },
+          { "name": "Minor Days Breached", "value": 310.0, "weight": 0.2, "passing_threshold": 250.0, "passing": false, "grade": "F", "score": 0.0 }
+        ]
+      }
+    ]
+  },
+  "errors": []
+}

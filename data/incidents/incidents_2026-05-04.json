@@ -1,0 +1,64 @@
+{
+  "source": "incidents",
+  "collected_at": "2026-05-10T10:00:00+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-05-10T10:00:00+00:00",
+      "week_start": "2026-04-28 00:00:00",
+      "week_end": "2026-05-04 23:59:59",
+      "regular_incident_count": 22,
+      "major_incident_count": 3,
+      "org_ids_queried": ["EDS05", "EDS04", "ENG21", "EDS24", "EDS01", "EDS02", "EDS15", "EDS07"],
+      "etrc_groups_queried": ["cd8818701b80c4907f97337bcd4bcb35", "c0de17e81b8c84907f97337bcd4bcbad", "9c1c30801bc404907f97337bcd4bcb74", "58d26bec1b8c84907f97337bcd4bcb44"]
+    },
+    "regular_incidents": [
+      { "number": "INC2895101", "short_description": "Self Service Enrollment - Application page returning 503 intermittently", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/28/2026 09:12:44", "resolved_at": "04/29/2026 14:30:00" },
+      { "number": "INC2895218", "short_description": "FAFSA Error Message - Unable to retrieve student aid report", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "04/28/2026 11:28:01", "resolved_at": "04/29/2026 09:15:00" },
+      { "number": "INC2895335", "short_description": "SSE Portal - Enrollment progress bar stuck at 60%", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/28/2026 13:43:18", "resolved_at": "04/30/2026 10:00:00" },
+      { "number": "INC2895452", "short_description": "Financial Aid Tab - VA benefits verification returning error", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "04/28/2026 15:58:35", "resolved_at": "04/30/2026 11:45:00" },
+      { "number": "INC2895569", "short_description": "Salesforce - Student record merge creating orphaned cases", "priority": "P3 - Medium", "priority_value": "3", "state": "In Progress", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/28/2026 18:13:52", "resolved_at": null },
+      { "number": "INC2895686", "short_description": "Student Portal - Course catalog search returning no results", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/29/2026 08:29:09", "resolved_at": "04/30/2026 08:00:00" },
+      { "number": "INC2895803", "short_description": "FAFSA Error Message - Dependency override form not submitting", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "04/29/2026 10:44:26", "resolved_at": "04/30/2026 14:30:00" },
+      { "number": "INC2895920", "short_description": "Self Service Enrollment - Enrollment agreement page blank on Chrome", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/29/2026 12:59:43", "resolved_at": "05/01/2026 09:00:00" },
+      { "number": "INC2896037", "short_description": "Application for Admissions - GPA calculation showing incorrect value", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/29/2026 15:15:00", "resolved_at": "05/01/2026 13:30:00" },
+      { "number": "INC2896154", "short_description": "Financial Hub - Employer reimbursement form missing required fields", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "04/29/2026 17:30:17", "resolved_at": "04/30/2026 16:00:00" },
+      { "number": "INC2896271", "short_description": "SSE Enrollment - Program eligibility check returning false negative", "priority": "P1 - Critical", "priority_value": "1", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/30/2026 08:45:34", "resolved_at": "04/30/2026 12:15:00" },
+      { "number": "INC2896388", "short_description": "Salesforce - Automated enrollment reminder emails not sending", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/30/2026 11:00:51", "resolved_at": "05/01/2026 15:45:00" },
+      { "number": "INC2896505", "short_description": "Financial Aid - Pell Grant eligibility calculator offline", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "04/30/2026 13:16:08", "resolved_at": "05/01/2026 10:30:00" },
+      { "number": "INC2896622", "short_description": "Self Service Enrollment - Transcript request form 404 error", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/30/2026 15:31:25", "resolved_at": "05/02/2026 09:00:00" },
+      { "number": "INC2896739", "short_description": "SSE Portal - Session timeout too aggressive on enrollment forms", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "04/30/2026 17:46:42", "resolved_at": "05/02/2026 14:00:00" },
+      { "number": "INC2896856", "short_description": "FAFSA Error Message - MPN signature page not loading", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/01/2026 08:01:59", "resolved_at": "05/02/2026 11:30:00" },
+      { "number": "INC2896973", "short_description": "Self Service Enrollment - Enrollment date picker showing wrong timezone", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/01/2026 10:17:16", "resolved_at": "05/02/2026 16:00:00" },
+      { "number": "INC2897090", "short_description": "Student Portal - Advisor contact information outdated", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/01/2026 12:32:33", "resolved_at": "05/03/2026 09:00:00" },
+      { "number": "INC2897207", "short_description": "Financial Hub - Student loan servicer link redirecting to wrong portal", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/01/2026 14:47:50", "resolved_at": "05/02/2026 13:15:00" },
+      { "number": "INC2897324", "short_description": "SSE Enrollment - Background check consent form not rendering", "priority": "P3 - Medium", "priority_value": "3", "state": "In Progress", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/01/2026 17:03:07", "resolved_at": null },
+      { "number": "INC2897441", "short_description": "Salesforce - Enrollment funnel dashboard metrics delayed 24h", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/02/2026 08:18:24", "resolved_at": "05/03/2026 10:30:00" },
+      { "number": "INC2897558", "short_description": "Financial Aid - Work-study position listing page error", "priority": "P4 - Low", "priority_value": "4", "state": "New", "assignment_group": "Financial Enablement", "opened_at": "05/02/2026 10:33:41", "resolved_at": null }
+    ],
+    "major_incidents": [
+      { "number": "MI0007280", "short_description": "Self Service Enrollment - Complete platform outage affecting all prospective students", "priority": "Sev 1", "state": "Closed", "assignment_group": "Enrollment Support & Ops", "group_sys_id": "cd8818701b80c4907f97337bcd4bcb35", "opened_at": "04/29/2026 09:30:00", "resolved_at": "04/29/2026 14:45:00" },
+      { "number": "MI0007283", "short_description": "Financial Aid - FAFSA integration completely down for 4 hours", "priority": "Sev 2", "state": "Closed", "assignment_group": "Financial Enablement", "group_sys_id": "c0de17e81b8c84907f97337bcd4bcbad", "opened_at": "04/30/2026 13:00:15", "resolved_at": "04/30/2026 17:30:00" },
+      { "number": "MI0007285", "short_description": "Salesforce - Marketing lead routing engine assigning to inactive counselors", "priority": "Sev 3", "state": "Closed", "assignment_group": "Pre", "group_sys_id": "9c1c30801bc404907f97337bcd4bcb74", "opened_at": "05/02/2026 10:15:42", "resolved_at": "05/03/2026 08:00:00" }
+    ],
+    "summary": {
+      "week_start": "2026-04-28 00:00:00",
+      "week_end": "2026-05-04 23:59:59",
+      "regular_incident_count": 22,
+      "major_incident_count": 3,
+      "regular_by_severity": {
+        "1": 1,
+        "2": 0,
+        "3": 8,
+        "4": 13
+      },
+      "mi_by_severity": {
+        "Sev 1": 1,
+        "Sev 2": 1,
+        "Sev 3": 1,
+        "Sev 4": 0
+      },
+      "mttr_hours": null
+    }
+  },
+  "errors": []
+}

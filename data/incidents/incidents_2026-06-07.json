@@ -1,0 +1,783 @@
+{
+  "source": "incidents",
+  "collected_at": "2026-06-09T16:37:40.360537+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-06-09T16:37:40.360537+00:00",
+      "week_start": "2026-05-25 00:00:00",
+      "week_end": "2026-05-31 23:59:59",
+      "regular_incident_count": 72,
+      "major_incident_count": 1,
+      "org_ids_queried": [
+        "EDS05",
+        "EDS04",
+        "ENG21",
+        "EDS24",
+        "EDS01",
+        "EDS02",
+        "EDS15",
+        "EDS07"
+      ],
+      "etrc_groups_queried": [
+        "cd8818701b80c4907f97337bcd4bcb35",
+        "c0de17e81b8c84907f97337bcd4bcbad",
+        "9c1c30801bc404907f97337bcd4bcb74",
+        "58d26bec1b8c84907f97337bcd4bcb44"
+      ]
+    },
+    "regular_incidents": [
+      {
+        "number": "INC2922315",
+        "short_description": "Financial Aid - Maintenance Error",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 11:09:25",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922251",
+        "short_description": "Financial Aid Plan - Error Message",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 10:09:29",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921952",
+        "short_description": "Financial Aid Tab - Additional Requirements Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 11:17:07",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2920231",
+        "short_description": "Student - missing Readiness Tasks",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/28/2026 14:22:30",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921713",
+        "short_description": "Can't access financial aid plan",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/29/2026 19:44:49",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2916774",
+        "short_description": "Need technical help, Anthu Barua",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 11:42:28",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921383",
+        "short_description": "Enrollment Portal - Documents Not Marked Complete",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/29/2026 13:56:11",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2916527",
+        "short_description": "SSE Enrollment  - Older Transcript Evaluation showing",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 10:21:26",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2920311",
+        "short_description": "Enrollment Portal - Task Completion Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/28/2026 14:53:47",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2918670",
+        "short_description": "Universal Enrollment Support Request - Duplicate accounts",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 13:35:42",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2918146",
+        "short_description": "EE/SSE student Geary Erua 013422980 commit to start will not populate.",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 09:39:32",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922084",
+        "short_description": "Financial Aid Tab - Maintenance Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 14:53:54",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921366",
+        "short_description": "Self Service Enrollment - Commit to Start missing",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/29/2026 13:45:57",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922304",
+        "short_description": "Financial Aid - Maintenance error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 10:59:53",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2917171",
+        "short_description": "Enrollment portal - Duplicate account",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 13:59:59",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922245",
+        "short_description": "Multi-Factor Authentication - Difficulty setting up Multi-Factor Authentication",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 10:06:43",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922239",
+        "short_description": "Financial Aid Tab - Maintenance Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 10:03:27",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922074",
+        "short_description": "Select My Finanical Aid Plan - Maintenance Issue",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 14:35:04",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921492",
+        "short_description": "Self Service Enrollment - Application for admission- Site is getting stuck",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/29/2026 15:07:26",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2917258",
+        "short_description": "SSE Readiness Center - Still shows Academy courses that have been removed",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 14:29:10",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922240",
+        "short_description": "Financial Aid Plan Error",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 10:03:33",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922376",
+        "short_description": "Financial Aid Tab - \"We were unable to save your Plan\" Error",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 12:19:16",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2916204",
+        "short_description": "Program not updating after change",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 08:46:00",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2918710",
+        "short_description": "Enrollment Portal - Duplicate account detected",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 13:56:00",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2916055",
+        "short_description": "Enrollment - Missing Application",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 07:43:45",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922122",
+        "short_description": "Financial Aid - Maintenance Error",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 16:19:55",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922093",
+        "short_description": "Financial Aid - Maintinance",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 15:06:52",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921224",
+        "short_description": "Self Service Enrollment - Incorrect Program",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/29/2026 12:06:19",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921951",
+        "short_description": "Financial Aid - Maintenance Issue",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 11:16:44",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921879",
+        "short_description": "Enrollment Portal - Financial Aid Form -  Submission Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 10:24:48",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2917061",
+        "short_description": "Universal Enrollment Support Request: Other",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 13:22:24",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2918273",
+        "short_description": "V4/Legacy Application - \"Address - 28% Complete\" Section has Incorrect Link/Redirecting Isssue",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 10:25:55",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2916146",
+        "short_description": "Universal Enrollment Support Request: Application Steps",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 08:17:55",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922247",
+        "short_description": "Financial aid submission",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 10:07:17",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922083",
+        "short_description": "Financial Aid Requirement",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 14:53:06",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2919004",
+        "short_description": "SSE: Duplicate PESes created for multiple students via Personal Background responses",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 16:11:33",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2916206",
+        "short_description": "Self Service Enrollment - Missing Profile",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 08:46:26",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922450",
+        "short_description": "Withdrwal Form - Not Submitting",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 14:41:22",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922382",
+        "short_description": "Can't finish FA",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 12:26:28",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922335",
+        "short_description": "Financial Aid -  Error Message",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 11:32:37",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922336",
+        "short_description": "Financial Aid - Maintenance Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 11:33:18",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922061",
+        "short_description": "Select My Financial Aid Plan-Maintenance Issue",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 14:12:58",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921018",
+        "short_description": "Enrollment Portal - Incorrect Program Displayed",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/29/2026 10:12:43",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2917624",
+        "short_description": "Student profile - No CARE profile",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 18:36:04",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2919130",
+        "short_description": "Self Service Enrollment - Application for Admission - \"another application already exists\"",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 18:07:39",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2919614",
+        "short_description": "Universal Enrollment Support Request: Application Steps",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/28/2026 09:38:04",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2918635",
+        "short_description": "Enrollment Portal - Still Receiving Transcript Evaluation Emails",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 13:17:55",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922086",
+        "short_description": "Financial Aid - Maintenance Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 14:57:50",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2920247",
+        "short_description": "Enrollment Portal - Transcript Evaluation Task Not Completing",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/28/2026 14:31:04",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2920391",
+        "short_description": "Universal Enrollment Support Request: Issue with Admission Status",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/28/2026 15:40:55",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921947",
+        "short_description": "Select My Financial Aid Plan - Maintenance Issue Message",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 11:12:59",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2916127",
+        "short_description": "Enrollment Portal - Incorrect Name Being Displayed",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 08:11:52",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921052",
+        "short_description": "Enrollment Application Login",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/29/2026 10:30:34",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2917917",
+        "short_description": "Student Email - Access Issue",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 07:20:38",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921733",
+        "short_description": "Financial aid plan submission issue",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/29/2026 20:28:45",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2917397",
+        "short_description": "Enrollment portal - Duplicate account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 15:38:59",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921881",
+        "short_description": "Financial Aid Tab - \"Maintenance Issue\" Error",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 10:28:21",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922345",
+        "short_description": "Self Service Enrollment - Blank Page",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/31/2026 11:43:33",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921722",
+        "short_description": "Financial Aid Tab - \"We are unable to process your request due to a maintenance issue, please try again later\"",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/29/2026 20:06:10",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921849",
+        "short_description": "Financial Aid Tab - \"Maintenance Issue\" Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 10:10:38",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2919146",
+        "short_description": "Self Service Enrollment - Commit to Start",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 18:22:59",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2916165",
+        "short_description": "Universal Enrollment Support Request: Application Steps",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/26/2026 08:28:02",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2918214",
+        "short_description": "Self Service Enrollment - Missing program expectations",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 10:04:07",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922147",
+        "short_description": "Financial Aid Selection - Maintance message",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 17:22:31",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921252",
+        "short_description": "Self Service Enrollment - CommitToStart Issue",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/29/2026 12:16:36",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2919767",
+        "short_description": "Self Service Enrollment - Overseas Eligibility Form error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/28/2026 10:37:56",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2919160",
+        "short_description": "Enrollment Portal - Degree Plan Not Displaying Correctly",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 18:38:43",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2922326",
+        "short_description": "error message in financial aid",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/31/2026 11:20:07",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2921892",
+        "short_description": "Financial Aid Plan - Maintenance Error",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "05/30/2026 10:34:54",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2918053",
+        "short_description": "Enrollment Portal - Commit To Start Missing/Awaiting Admissions Decision",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 08:49:56",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2919638",
+        "short_description": "Enrollment Portal - Commit To Start Not Appearing ",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/28/2026 09:49:28",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2918335",
+        "short_description": "Self Service Enrollment - Login Issues",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "05/27/2026 10:50:01",
+        "resolved_at": null
+      }
+    ],
+    "major_incidents": [
+      {
+        "number": "MI0007316",
+        "short_description": "SSE Readiness Center - Still shows Academy courses that have been removed",
+        "priority": "Sev 3",
+        "state": "Investigating",
+        "assignment_group": "Enrollment Support & Ops",
+        "group_sys_id": "cd8818701b80c4907f97337bcd4bcb35",
+        "opened_at": "05/26/2026 15:00:32",
+        "resolved_at": null
+      }
+    ],
+    "summary": {
+      "week_start": "2026-05-25 00:00:00",
+      "week_end": "2026-05-31 23:59:59",
+      "regular_incident_count": 72,
+      "major_incident_count": 1,
+      "regular_by_severity": {
+        "1": 0,
+        "2": 6,
+        "3": 23,
+        "4": 43
+      },
+      "mi_by_severity": {
+        "Sev 1": 0,
+        "Sev 2": 0,
+        "Sev 3": 1,
+        "Sev 4": 0
+      },
+      "mttr_hours": null
+    }
+  },
+  "errors": []
+}

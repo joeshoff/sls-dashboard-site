@@ -1,0 +1,367 @@
+/* Student Sentiment quadrant styles — scoped under #quadrant-sentiment */
+/* Zero hardcoded colors — all values reference design tokens from variables.css */
+
+/* --- Card Layout --- */
+/* The quadrant-card is the root container rendered by the module.
+ * Flex column to stack: hero score, trend chart, category rows. */
+#quadrant-sentiment .quadrant-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.75rem;
+    background: var(--surface);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    color: var(--text);
+    max-height: 280px;
+    overflow: hidden;
+}
+
+/* --- Score Hero Section --- */
+/* Net score displayed prominently with distribution chips below */
+#quadrant-sentiment .sentiment-hero {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+}
+
+#quadrant-sentiment .sentiment-score {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text);
+}
+
+#quadrant-sentiment .sentiment-label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+#quadrant-sentiment .sentiment-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+/* Distribution chips: "29% pos · 7% neg · 64% neu" */
+#quadrant-sentiment .sentiment-chips {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+#quadrant-sentiment .sentiment-chip {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+#quadrant-sentiment .sentiment-chip-pos {
+    color: var(--grade-a);
+}
+
+#quadrant-sentiment .sentiment-chip-neg {
+    color: var(--grade-f);
+}
+
+#quadrant-sentiment .sentiment-chip-separator {
+    color: var(--text-muted);
+    font-size: 0.6rem;
+}
+
+/* --- Trend Chart Container --- */
+/* SVG trend chart with two polylines, capped at 120px height */
+#quadrant-sentiment .sentiment-trend {
+    width: 100%;
+    max-height: 90px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#quadrant-sentiment .sentiment-trend svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-height: 90px;
+}
+
+#quadrant-sentiment .sentiment-trend-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    background: var(--surface);
+    border: 1px dashed var(--border);
+    border-radius: 4px;
+}
+
+/* --- Category Breakdown Rows --- */
+/* Stacked bars showing positive/neutral/negative proportions per bucket */
+#quadrant-sentiment .sentiment-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+}
+
+#quadrant-sentiment .sentiment-category-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+#quadrant-sentiment .sentiment-category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#quadrant-sentiment .sentiment-category-name {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 240px;
+}
+
+#quadrant-sentiment .sentiment-category-count {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+/* Stacked bar: three segments filling horizontal space proportionally */
+#quadrant-sentiment .sentiment-bar {
+    display: flex;
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: var(--border);
+}
+
+#quadrant-sentiment .sentiment-bar-pos {
+    background: var(--grade-a);
+}
+
+#quadrant-sentiment .sentiment-bar-neu {
+    background: var(--border);
+}
+
+#quadrant-sentiment .sentiment-bar-neg {
+    background: var(--grade-f);
+}
+
+/* "+N more" truncation indicator */
+#quadrant-sentiment .sentiment-more-wrapper {
+    position: relative;
+    overflow: visible;
+}
+
+#quadrant-sentiment .sentiment-more-indicator {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-align: center;
+    padding: 0.15rem 0;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 2px;
+}
+
+#quadrant-sentiment .sentiment-more-indicator:hover {
+    color: var(--text);
+    text-decoration-style: solid;
+}
+
+/* Popup: shows hidden categories on hover — portalled to body */
+#quadrant-sentiment .sentiment-more-popup,
+.sentiment-more-popup-portal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.6rem 0.75rem;
+    width: 340px;
+    filter: drop-shadow(0 4px 8px var(--border));
+    pointer-events: auto;
+}
+
+.sentiment-more-popup-portal.visible {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Popup row layout — portalled outside #quadrant-sentiment, so no prefix */
+.sentiment-more-popup-portal .sentiment-popup-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.sentiment-more-popup-portal .sentiment-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.sentiment-more-popup-portal .sentiment-popup-row .sentiment-category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.sentiment-more-popup-portal .sentiment-popup-name {
+    font-size: 0.7rem;
+    color: var(--text);
+    white-space: nowrap;
+}
+
+.sentiment-more-popup-portal .sentiment-popup-count {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-left: 0.5rem;
+}
+
+.sentiment-more-popup-portal .sentiment-bar {
+    display: flex;
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: var(--border);
+}
+
+.sentiment-more-popup-portal .sentiment-bar-pos {
+    background: var(--grade-a);
+}
+
+.sentiment-more-popup-portal .sentiment-bar-neu {
+    background: var(--border);
+}
+
+.sentiment-more-popup-portal .sentiment-bar-neg {
+    background: var(--grade-f);
+}
+
+#quadrant-sentiment .sentiment-more-wrapper:hover .sentiment-more-popup {
+    /* No-op: popup is portalled to body, not shown via this rule */
+}
+
+/* Single-bucket case: name + count, no bar */
+#quadrant-sentiment .sentiment-category-solo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+}
+
+/* --- Error and Stale Indicators --- */
+#quadrant-sentiment .sentiment-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex: 1;
+}
+
+#quadrant-sentiment .sentiment-error-icon {
+    font-size: 1.5rem;
+}
+
+#quadrant-sentiment .sentiment-error-message {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#quadrant-sentiment .sentiment-stale-badge {
+    display: inline-block;
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    background: var(--yellow-dim);
+    color: var(--text-muted);
+}
+
+#quadrant-sentiment .sentiment-refresh-error {
+    background: var(--yellow-dim);
+    color: var(--text-muted);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* --- No Data State --- */
+#quadrant-sentiment .sentiment-no-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex: 1;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+/* --- Placeholder (initial load before data arrives) --- */
+#quadrant-sentiment .placeholder-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    flex: 1;
+}
+
+#quadrant-sentiment .placeholder-icon {
+    font-size: 2rem;
+}
+
+#quadrant-sentiment .placeholder-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* --- Responsive: ≤1200px single-column reflow --- */
+/* At this breakpoint layout.css already moves #quadrant-sentiment to
+ * position:static, width:100%. These rules adjust internal layout
+ * to take advantage of the wider available space. */
+@media (max-width: 1200px) {
+    #quadrant-sentiment .quadrant-card {
+        max-height: none;
+        width: 100%;
+    }
+
+    #quadrant-sentiment .sentiment-trend {
+        max-height: 140px;
+    }
+
+    #quadrant-sentiment .sentiment-category-name {
+        max-width: none;
+    }
+}

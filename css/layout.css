@@ -1,0 +1,200 @@
+/* layout.css — Grid, responsive breakpoints, page-level layout
+ * Shared across all dashboard pages (landing, operations, delivery).
+ * Assumes variables.css is loaded first.
+ *
+ * Breakpoints:
+ *   1200px — single-column reflow (per architecture spec, Req 11.5, 12.1)
+ *   768px  — compressed mobile (Req 12.5)
+ */
+
+/* Page container — max-width with auto margins for centering */
+.page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Page header pattern — title + subtitle + optional timestamp */
+.page-header {
+    margin-bottom: 1.5rem;
+}
+
+.page-header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.page-header .subtitle {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+/* Section stacking — vertical rhythm between major page sections */
+.ops-section {
+    margin-bottom: 2rem;
+}
+
+.ops-section:last-child {
+    margin-bottom: 0;
+}
+
+/* Generic grid — auto-fill columns at 280px minimum */
+.auto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+/* Two-column grid for side-by-side panels */
+.two-col-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* Four-column grid for pillar displays */
+.four-col-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+/* ===== RESPONSIVE: 1200px — single column ===== */
+@media (max-width: 1200px) {
+    .page-container {
+        max-width: 100%;
+        padding: 1.5rem 1rem;
+    }
+
+    .auto-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .two-col-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .four-col-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ===== RESPONSIVE: 768px — compressed ===== */
+@media (max-width: 768px) {
+    .page-container {
+        padding: 1rem 0.75rem;
+    }
+
+    .four-col-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Charts need minimum height to remain legible */
+    .chart-container {
+        min-height: 200px;
+    }
+}
+
+/* ===== DASHBOARD HEADER ===== */
+.dashboard-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1.5rem 2rem 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.dashboard-header h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.dashboard-header .subtitle {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.dashboard-header .last-updated {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+/* ===== DASHBOARD CONTAINER ===== */
+.dashboard-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+}
+
+/* ===== QUADRANT GRID: 2×2 Landing Page Layout ===== */
+/* 4+1 structure: four grid cells + one center overlay at the intersection.
+ * The grid container must be position:relative so the overlay can position
+ * absolutely against it. */
+
+.quadrant-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 360px 360px;
+    gap: 1.5rem;
+    position: relative;
+}
+
+/* Slot containers — constrained height with overflow scroll for content
+ * that exceeds the max. min-height keeps cards visually balanced even
+ * when a module renders minimal content. Excludes the sentiment overlay.
+ * Display:flex ensures child .quadrant-card fills the slot height. */
+.quadrant-grid > [id^="quadrant-"]:not(#quadrant-sentiment) {
+    min-height: 300px;
+    max-height: 380px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== CENTER OVERLAY: Student Sentiment ===== */
+/* Positioned at the grid intersection — visually communicates that
+ * student sentiment is the shared outcome of all four perspectives.
+ * Lives inside .quadrant-grid so position:relative on the grid
+ * serves as the positioning context. Purely absolute — no grid
+ * placement properties to avoid browser inconsistencies.
+ *
+ * Width: 360px keeps content readable without excessive overlap on corners.
+ * Max-height: 270px keeps the overlay compact so card titles on the
+ * bottom row remain visible above it. Shifted 2% up from center
+ * to favor bottom-card title visibility.
+ * Content beyond max-height gets internal scroll via the module's own CSS. */
+#quadrant-sentiment {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 360px;
+    max-height: 270px;
+    overflow: hidden;
+    pointer-events: auto;
+}
+
+/* ===== RESPONSIVE: 1200px — single-column stack ===== */
+@media (max-width: 1200px) {
+    .quadrant-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quadrant-grid > [id^="quadrant-"]:not(#quadrant-sentiment) {
+        max-height: none;
+    }
+
+    #quadrant-sentiment {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 100%;
+        order: 3;
+    }
+}

@@ -1,0 +1,854 @@
+{
+  "source": "reddit",
+  "collected_at": "2026-06-01T20:41:33.779373+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-06-01T20:41:33.779373+00:00",
+      "subreddits_searched": [
+        "WGU",
+        "wgu_students",
+        "WGU_CompSci",
+        "WGUTeachersCollege"
+      ],
+      "search_queries": [
+        "enrollment counselor",
+        "enrollment process",
+        "admissions",
+        "enrollment",
+        "new student enrollment"
+      ],
+      "days_back": 30,
+      "total_posts": 69,
+      "method": "rss"
+    },
+    "posts": [
+      {
+        "id": "1trkxis",
+        "subreddit": "WGU",
+        "title": "Admissions and Sophia",
+        "content": "Has anyone else encountered an enrollment counselor telling them that you need at least a \u201cB\u201d for your Sophia transfers? submitted by /u/Apres_Skiii4 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1trkxis/admissions_and_sophia/",
+        "author": "Apres_Skiii4",
+        "created_utc": 1780101734.0,
+        "created_at": "2026-05-30T00:42:14+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tqn6ei",
+        "subreddit": "WGU",
+        "title": "UPDATE Getting frustrated with admissions",
+        "content": "Here\u2019s my original thread but I wanted to post an update. https://www.reddit.com/r/WGU/comments/1tlq5nv/comment/onn6smt/?screen_view_count=2 They got me on the roll for June 1st! Apparently today was the deadline for late adds to the June 1st roll and they got it done. I just have to complete orientation and I have until June 10th. I can definitely get it done way before that date. For anyone thinking of applying, make sure you understand the enrollment process and stay on top of your enrollment counselor. I wish I had come to Reddit a month ago so I would\u2019ve known the process and deadlines because my EC never really went over any of this with me (she said transcripts needed to in by the 15th but didn\u2019t mention anything else such as the commit to start). submitted by /u/Wise-Ad6032 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tqn6ei/update_getting_frustrated_with_admissions/",
+        "author": "Wise-Ad6032",
+        "created_utc": 1780018733.0,
+        "created_at": "2026-05-29T01:38:53+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tq9jx2",
+        "subreddit": "WGU",
+        "title": "Randomly Kicked from School?!",
+        "content": "I finished all of my prerequisites: commit to start, orientation, financial aid, everything. I even had my first call with my mentor. Then, last night, I logged in to find my account saying I was not an active student and all of the completed tasks above unchecked on the admissions page. I called enrollment and they told me to call admissions. I called admissions and they said I needed to write an email to admissions as the email staff are a different team. I wrote admissions and am waiting on their response (no confirmation email though, so hopefully they're on it). So, I tried logging in one last time after the call and my account is completely locked out! Any idea what is going on? Update #1: I haven't heard back from admissions, but my enrollment counselor has told me that she is on the case and speaking with senior management! This is the second time she has helped me out of a situation I thought was catastrophic. I haven't had much of a chance to interact with my mentor yet, but if they're as awesome as the enrollment, I'm stoked. Sending blessings and thanks to my enrollment counselor! Updated #2: My account became accessible again earlier and the \"not an active student\" message was gone. I thought it was getting resolved. However, it then came back after a bit. Then, I received an email saying I had to complete additional financial aid forms. There were three: one saying I had lost SAP benefits because of my poor academic performance (my classes don't even start for another three days!) which was a petition to ask for forgiveness for my poor grades, another was clicking through a bunch of check boxes acknowledging the student performance requirements of financial aid, and the last was a form to be completed before a notary proving I am me. Craziness. I filled out the first two, but the part that sucks is I'm abroad and won't be back home for a few weeks and to get notarized here I need to make an appointment at the embassy where the earliest open dates aren'",
+        "url": "https://www.reddit.com/r/WGU/comments/1tq9jx2/randomly_kicked_from_school/",
+        "author": "KingDerpaLerpa",
+        "created_utc": 1779987761.0,
+        "created_at": "2026-05-28T17:02:41+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tq6wyd",
+        "subreddit": "WGU",
+        "title": "Should I delay my July 1 WGU start to finish more Sophia credits?",
+        "content": "I\u2019m enrolled for a July 1 start in the BS Data Analytics program, but I\u2019m reconsidering whether I should delay to August so I can transfer in more Sophia credits. My WGU counselor told me the transfer cutoff is June 5, and I\u2019ve only completed 3 Sophia courses so far. I finally mapped out which Sophia classes have Touchstones and which don\u2019t, so I have a clearer plan but realistically I won\u2019t finish many more before the deadline. For those who\u2019ve gone through BSDA or transferred a lot of Sophia credits: Is it worth delaying the start date to maximize transfers and lighten the WGU workload, or should I just start in July and trust that my Sophia pace will translate well to WGU? Any insight would help. submitted by /u/Hairy-Blueberry2610 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tq6wyd/should_i_delay_my_july_1_wgu_start_to_finish_more/",
+        "author": "Hairy-Blueberry2610",
+        "created_utc": 1779982078.0,
+        "created_at": "2026-05-28T15:27:58+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tlq5nv",
+        "subreddit": "WGU",
+        "title": "Getting frustrated with admissions process",
+        "content": "2nd edit 5/28: So it turns out I did everything I was supposed to and had it all turned in by the deadline. My EC screwed everything up. It has been a complete shit show and, in the last 3 days, it felt like I was going through the admissions process all over again even though they already have all the documents. I spoke with someone this morning who said today was the deadline for late adds to the roll. I just got a call (at 6pm) that they got me on the roll so I start June 1st! EDIT: Are the readiness center tasks on the application log in page the same as commit to start tasks? Google is saying they\u2019re the same but I\u2019m also finding info saying those tasks are found in the student portal. The readiness center isn\u2019t in the student portal. My EC told me I needed to do them. I completed them by the 15th. I also found that orientation can be completed up until the 10th of the month of your start date so I\u2019m holding out hope they will do the right thing and keep me at June 1st start. I applied to start June 1st. Everything is complete and I just need to do the Commit to Start. I messaged my enrollment counselor a few days ago because I hadn\u2019t heard anything about it and she said financial services was waiting for me to do something but didn\u2019t know what. I contacted financial services and they had been waiting on me to complete federal financial aid stuff but I\u2019m not taking any federal aid so they told me everything was set and I just need to do the commit to start so I messaged my counselor to let her know. I haven\u2019t heard back from her and now they\u2019re closed for the 3 day weekend. They seem so disorganized and I\u2019m almost ready to say F it and give up but I really need my master\u2019s. Did anyone else have an experience like this? Also, what exactly is the commit to start? submitted by /u/Wise-Ad6032 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tlq5nv/getting_frustrated_with_admissions_process/",
+        "author": "Wise-Ad6032",
+        "created_utc": 1779565482.0,
+        "created_at": "2026-05-23T19:44:42+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tesugt",
+        "subreddit": "WGU",
+        "title": "UPDATED",
+        "content": "Hey guys, update from my old post \ud83d\udc4b\ud83c\udffe A few months ago, I asked if it was realistic to finish my remaining 14 classes at WGU in about 3 months. A lot of people shared their experiences and motivated me, so I wanted to come back with an update. I just finished my Bachelor of Science in Health Science \ud83c\udf93\u2728 Just a little PSA: I did transfer some classes from Sophia Learning and Study.com before starting, (start date was March 1st) which helped a lot. But overall, I stayed consistent and kept pushing through. So for anyone wondering if it\u2019s possible yes, it is \ud83d\ude0a If I can do it, you can too \ud83e\udd0d submitted by /u/Super-Session-2544 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tesugt/updated/",
+        "author": "Super-Session-2544",
+        "created_utc": 1778935880.0,
+        "created_at": "2026-05-16T12:51:20+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tc98fo",
+        "subreddit": "WGU",
+        "title": "Finally...the Golden Girl Graduates (Blanche Devereaux)",
+        "content": "Its never too late. I had credits that were over 30 years old that transfered in...so that tells a lot. Moving on to the MBA next. How exhilarating!!!! Update 5/14. Received my 4th Excellence Award and the last two just arrived for Task 2 & 3 of the Health Sciences Capstone. AMAZING... \ud83d\udc99 \ud83e\udd89 \ud83d\udc99 submitted by /u/KBHON3Y [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tc98fo/finallythe_golden_girl_graduates_blanche_devereaux/",
+        "author": "KBHON3Y",
+        "created_utc": 1778698698.0,
+        "created_at": "2026-05-13T18:58:18+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tb3yx1",
+        "subreddit": "WGU",
+        "title": "Sophia before enrolling?",
+        "content": "Hello all, just have some questions on Sophia. I have zero college credits and need to get some general ed classes done. On the partners.wgu.edu site, I found the Sophia transfer pathway for my targeted degree and can see the exact Sophia courses that will transfer for the General Ed portion of the degree. I have already applied to WGU yesterday evening, but have not spoken to a counselor yet. I am not enrolled however. Can I just put off enrollment and spend the next month or so knocking out the ~7 general education courses on Sophia? I want to make it as cheap as possible, and not prolong any more time than needed at WGU. Is this a solid strategy? I figure if I knock these out, when I do enroll, I can start immediately and not have to first do general ed courses in WGU. submitted by /u/skidmark_zuckerberg [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tb3yx1/sophia_before_enrolling/",
+        "author": "skidmark_zuckerberg",
+        "created_utc": 1778597554.0,
+        "created_at": "2026-05-12T14:52:34+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1t6g32s",
+        "subreddit": "WGU",
+        "title": "Fun isn\u2019t something one considers when balancing the universe.",
+        "content": "But this \u2026 does put a smile on my face. submitted by /u/AnyNefariousness8717 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t6g32s/fun_isnt_something_one_considers_when_balancing/",
+        "author": "AnyNefariousness8717",
+        "created_utc": 1778172318.0,
+        "created_at": "2026-05-07T16:45:18+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1t5kz3i",
+        "subreddit": "WGU",
+        "title": "GI Bill",
+        "content": "I am supposed to start my first term June 1st. I am using my spouses gi bill. I feel like I am missing something somewhere. At what point does the gi bill pay for my classes so that I can start June 1st? Do I need to pay with a credit card first and then get a refund from the school or the gi bill? I know that I also need to meet with a mentor first and go over my classes before certifying. But when I asked the enrollment counselor about that she wasn\u2019t sure and said she would check. Some step has been missed somewhere and I\u2019m not sure what it is. submitted by /u/Ok-Understanding5320 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t5kz3i/gi_bill/",
+        "author": "Ok-Understanding5320",
+        "created_utc": 1778091080.0,
+        "created_at": "2026-05-06T18:11:20+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1t50ubp",
+        "subreddit": "WGU",
+        "title": "After two years, I can finally say I've achieved one of my lifelong dreams",
+        "content": "Wow. Really feels like yesterday when I first spoke to the enrollment counselor, or even before that, when I started researching WGU and listing out courses to take before enrollment from Sophia and Study.com , or seeing the ad that drove me to do the research in the first place.. It took me two full years, or four terms, to complete my bachelor's. This is actually my last month in term four. Not going to sit here and say it was easy, but not impossible either. I myself had tried community college twice and dropped it after passing maybe two classes. With WGU, I had a huge head start with the transfer of credits, which took care of most general ed courses. I'm just a random stranger on the internet, and definitely nothing special, but if I can do it, many of you can. But you have to put the effort in. You have to want it. If anyone reading this is currently a student, keep at it, take breaks if you need to, but don't give up. If you are thinking of starting your journey, do your research so you can get ahead as much as you can. List out all courses you need to take, see how you can make your time in easier on yourself. Thank you for your time and best of luck to everyone! submitted by /u/isaelsky21 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t50ubp/after_two_years_i_can_finally_say_ive_achieved/",
+        "author": "isaelsky21",
+        "created_utc": 1778036682.0,
+        "created_at": "2026-05-06T03:04:42+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1t4rtcs",
+        "subreddit": "WGU",
+        "title": "The deed has been done.",
+        "content": "submitted by /u/TheTylerboltz [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t4rtcs/the_deed_has_been_done/",
+        "author": "TheTylerboltz",
+        "created_utc": 1778013747.0,
+        "created_at": "2026-05-05T20:42:27+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tr9r2w",
+        "subreddit": "WGU",
+        "title": "Couldn't Finish",
+        "content": "I finished 32 classes last semester ,but couldn't finish last 4 for some reason ,wanted to finish before heading out for trade school . Need one more semester No more intro to it next semester will change to consumer behavior submitted by /u/Turbulent_Pie274 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tr9r2w/couldnt_finish/",
+        "author": "Turbulent_Pie274",
+        "created_utc": 1780076943.0,
+        "created_at": "2026-05-29T17:49:03+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tpu1pd",
+        "subreddit": "WGU",
+        "title": "When should I apply?",
+        "content": "I have about 3 courses left on Sophia and my plan is to finish them in the next 2 weeks (probably sooner) and then re-enroll. I know start dates aren\u2019t until the first so I likely wouldn\u2019t be until July. Should I re apply after I finish Sophia or go ahead and get the process going? submitted by /u/Truecrimejunkie1312 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tpu1pd/when_should_i_apply/",
+        "author": "Truecrimejunkie1312",
+        "created_utc": 1779945599.0,
+        "created_at": "2026-05-28T05:19:59+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tny7mr",
+        "subreddit": "WGU",
+        "title": "What is the process if you are withdrawn from WGU because of lack of CUs?",
+        "content": "Pretty much the title. I've been going to WGU for a few years now. I work a lot of hours and I'm the sole source of income for a whole family. This year has been very difficult and I only have a week of classes left. I don't think I'll finish this D361 class to make the CUs to hit that minimum mark. I got an email from my advisor letting me know that I'll be automatically withdrawn from school if I can't get at least 3 CDUs. Can anyone tell me what happens with that process and what I would have to do to re-enroll? submitted by /u/Everythingsthesame [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tny7mr/what_is_the_process_if_you_are_withdrawn_from_wgu/",
+        "author": "Everythingsthesame",
+        "created_utc": 1779775863.0,
+        "created_at": "2026-05-26T06:11:03+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tm3mvu",
+        "subreddit": "WGU",
+        "title": "Experience, WGU BSDA & MSDA questions",
+        "content": "First, I'm curious to hear if my business experience might give me a leg up in landing a higher paid position if I go for the BSDA. I work in Data Integrity (I'm a Supervisor) where it is not necessarily a technical roll as we only use Excel and the CRM to pull reports from. But we seem to do similar functions such as clean up the database, merge duplicate accounts, \u200bensure financial accuracy, prepare the database for end of month closing for the finance team, send out statements, perform price increases, generate, ensure all employees are in compliance with company policy (in regard to using the CRM), find inefficiencies and suggest solutions, etc. Do you think this experience will allow me to transition to a proper Data Analyst roll once I have the appropriate skills (and expensive piece of paper) that I am currently lacking? Second, I am planning on learning SQL, Python, Power BI, and R before enrolling in the BSDA to make sure I can get through the material as quickly as possible as I've seen recommended to others. Are there any other subjects I should focus on? Third, perhaps after the BSDA I would go for the MSDA with the Decision Process Engineering specialization as it is more Business Analyst focused. This seems like a well rounded educational experience for someone like me with a business background. I wonder if this would be worth while or maybe the BS isn't enough these days for Data Analytics and I should choose one of the other two. Thoughts? Any guidance is much appreciated!! Thank you for your time! submitted by /u/sara_in_codeland [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tm3mvu/experience_wgu_bsda_msda_questions/",
+        "author": "sara_in_codeland",
+        "created_utc": 1779602301.0,
+        "created_at": "2026-05-24T05:58:21+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tlxj1g",
+        "subreddit": "WGU",
+        "title": "8 Days Left of Term 1 - USER EXPERIENCE - can i squeeze 1 more ???",
+        "content": "Yall think i can know out another, which would be a easy know out... it takes me a week to get through it, week day i work FULL time with a toddler.. so study / ready at NIGHT, listen to it being read to me During morning comute, finally do a pretest to see where i am weak eventually .. and test i can do on the weekends only , writing i do it on and off during the week at night .. but submit by the weekend to make sure i clean it up submitted by /u/DanxMacabre [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tlxj1g/8_days_left_of_term_1_user_experience_can_i/",
+        "author": "DanxMacabre",
+        "created_utc": 1779584366.0,
+        "created_at": "2026-05-24T00:59:26+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tj4jxy",
+        "subreddit": "WGU",
+        "title": "Can I get into medschool by going to WGU",
+        "content": "I am finishing up my enrollment for WGU for the bachelor of science, health science. I am now questioning if I will even be able to go to med school and have WGU as a competitive choice of pre med. I really don\u2019t know the process and the enrollment team isn\u2019t really that helpful with explaining the steps I need to take during WGU and how to get into med school after I graduate. If anyone has got into med school from WGU can you please explain the process so I make sure I make the correct decision and not waste any time or money. Thank you! submitted by /u/Dyeody [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tj4jxy/can_i_get_into_medschool_by_going_to_wgu/",
+        "author": "Dyeody",
+        "created_utc": 1779324083.0,
+        "created_at": "2026-05-21T00:41:23+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tj2ah0",
+        "subreddit": "WGU",
+        "title": "Confetti in 19 months! My honest experience with acceleration",
+        "content": "I was able to knock out my degree in 3 terms, plus a one-month extension! Honestly, the total preparation-to-completion took me longer than 3 terms. Because this is like a recipe that no one wants to read a story for: TLDR: I used Khan Academy and coding bootcamps to prep for as many classes as possible, and studied a minimum of 6-8 hours a day, 7 days a week. A little background: I have been self-employed for over a decade, and I use software to help with day-to-day operations. After becoming frustrated with the various platforms I used, switching from once-free features to now charging a premium on top of a subscription, I decided to teach myself to program. I did a Python coding bootcamp, and at the end, I realized I wasn't anywhere near ready to create an application. But I kept teaching myself what I thought I would need to know, but no real structure. This went on for about a year and a half. During this time, I had a friend who just completed a business degree through WGU in about 2 years. I was interested in how that worked and what that looked like. So he gave me a heads-up on how he studied every day for at least 4 hours while working a full-time job. My wife thought it would be worthwhile to check out the software engineering program. But I didn't start just yet. This is really where the \"acceleration\" took place for me. I wanted to get through WGU quickly to save money. I'm a \"first-generation\" college student; my family never had much money. So I went through the Program Guide for the Software Engineering degree and took every course offered on Khan Academy that seemed like a good match. It was surprising how many free courses were available that were relevant to the program. I honestly spent about 8 months on Khan Academy working through relevant courses in preparation for starting WGU. This is when I was \"ready\" to enroll at WGU. My initial goal was to finish my degree in 2.5 years. I had no idea how intensive the coursework would be or what was invol",
+        "url": "https://www.reddit.com/r/WGU/comments/1tj2ah0/confetti_in_19_months_my_honest_experience_with/",
+        "author": "mrconqueso",
+        "created_utc": 1779318436.0,
+        "created_at": "2026-05-20T23:07:16+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1thq016",
+        "subreddit": "WGU",
+        "title": "D099 (Passed first time)",
+        "content": "I am not a reddit user, but I accelerated in my Business Management degree and just finished yesterday, and this class had me freaked out. For background, I've worked in business for 25+ years. I work in real estate, which is technically sales, but not in the way this course approaches it. I took the PA once I was enrolled (you can take PAs before your term starts, but can't always get a coaching report), and I failed. I did a ton of reddit research on all my courses, and everyone had horror stories about this one, so I actually left it to the very last thing - I submitted my capstone and then started studying for this one. (My mentor was awesome, for what it's worth). Ok. So, what I did: Took the PA before anything else, so understand where I was at as a starting point. Once I started the course, I used Connect, and read \"How to Approach This Course\" - then watched the \"Welcome\" Video. Then, I started with the course materials. This was the first class I really used the course materials, but all but my spreadsheet class were PAs, so this was also my first (and only) real OA. The materials are DRY. I skimmed, and wrote down definitions (the keywords are highlighted so you know which to learn). I also screenshot each chart/graph, and started a file for those. There was at least one question on the OA that was basically \"which step is XX in the process?\" so you specifically had to remember the process itself and how many steps, and where the step they gave you falls. There was no definition in the question and no list - just the word and then the answers were 1st, 2nd, 3rd, or 4th. I answered each question within the section - there are knowledge tests along the way. When you answer wrong, it tells you why - so I answered each question correctly (or tried to), and then went through and selected each wrong answer, to make sure I understood why they were wrong. If I wasn't understanding it, I'd go back through that particular part, until I understood the concept. I did ",
+        "url": "https://www.reddit.com/r/WGU/comments/1thq016/d099_passed_first_time/",
+        "author": "Formal_Advance_4283",
+        "created_utc": 1779203722.0,
+        "created_at": "2026-05-19T15:15:22+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tfcbnj",
+        "subreddit": "WGU",
+        "title": "Cloud and Network Engineering Program Review",
+        "content": "Good evening, thanks for taking the time to read. I assume if you clicked on this, you are looking for a program review, whether because you have fallen into the doldrums, need some motivation to continue, or are considering the program. Just to let you know, I came from the former program, Network and Security Engineering, in the Cisco track. I had about 20 CUs remaining when I was offered the chance to hop into the BSCNE, and, not wanting to take DevNet again, I opted to take the plunge, even though there wasn't much feedback on the program. I came into WGU as a decently seasoned IT veteran, actively working in Cybersecurity, with an associate's degree, so many of the early courses would not be a great resource for me. However, A+, Net+ & Sec+ are all still a good foundation to have. If you have them, then many of the early courses will be easy or you can get credit for. For some of the more pertinent courses: E027 - Virtualization and IaaS - My first course after transferring to BSCNE. You are given two tasks that are more straightforward than presented. Pick a company to write about and do not overthink the process. Address in the papers why IaaS is a great solution for any company, discuss why it is great at scaling, and then pick an IaaS provider to justify your prior points. For the second task, the instructors gave out a template to follow to complete the course. Please don't deviate from the template; it is in the course resources. If you deviate, it will get kicked back. E028 - Hybrid Cloud Infrastructure and Orchestration - Two more PAs, you are given a scenario, told to review it as if you are a contractor, and then propose a solution. There are more than two issues with both hardware and software, so whatever you pick, justify and cite sources. The evaluators like citing sources. Cite more sources and justify again. In your plan, do not get too far into the weeds; it will get kicked back because, inevitably, you did not cite a step or process as well as",
+        "url": "https://www.reddit.com/r/WGU/comments/1tfcbnj/cloud_and_network_engineering_program_review/",
+        "author": "disciplineneverfails",
+        "created_utc": 1778983736.0,
+        "created_at": "2026-05-17T02:08:56+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tezq40",
+        "subreddit": "WGU",
+        "title": "Educational studies",
+        "content": "I am wanting to pursue a career in teaching so I am planning to enroll with WGU. I work full time in a blue collar job and come from a blue collar family but I want to change career paths. I\u2019m 26 years old so I want to get this ball rolling. I was originally going to go for a BA in education with licensure included, but I realized I have to do CA teaching credential program no matter what. Also I can\u2019t really afford to put work on hold for the in class hours through WGU program. So I\u2019m planning to go for educational studies and take an alternative route such as a preliminary credential program in CA so I can get paid while obtaining my teaching license. I\u2019m planning to enroll with study.com first so I can get a couple steps ahead with some credit transfers. Has anyone been through a similar process, if so how was it for you? submitted by /u/ArgumentTough2595 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tezq40/educational_studies/",
+        "author": "ArgumentTough2595",
+        "created_utc": 1778951920.0,
+        "created_at": "2026-05-16T17:18:40+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tc42sw",
+        "subreddit": "WGU",
+        "title": "WE MADE IT",
+        "content": "Crazy push but finished with 15 weeks still left in the term. Applying for graduation as soon as possible and so glad to be done with this. Finishing school has been a long time coming for me haha. submitted by /u/Content-Pickle8386 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tc42sw/we_made_it/",
+        "author": "Content-Pickle8386",
+        "created_utc": 1778688256.0,
+        "created_at": "2026-05-13T16:04:16+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tb5jn8",
+        "subreddit": "WGU",
+        "title": "What does this mean? I have to pay more? Diversity and intercultural communications on study.com",
+        "content": "submitted by /u/Prestigious_Hat_4540 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tb5jn8/what_does_this_mean_i_have_to_pay_more_diversity/",
+        "author": "Prestigious_Hat_4540",
+        "created_utc": 1778600822.0,
+        "created_at": "2026-05-12T15:47:02+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1t9lvct",
+        "subreddit": "WGU",
+        "title": "Attempting to enroll in MS in Curriculum and Instruction...",
+        "content": "Hi, everyone! I am an 11th year K-5 Music Teacher and of all of the online Masters, this one seems the most realistic for me to complete. However, I am in the enrollment process and am confused by this prompt. I must agree to: \"In order to complete coursework, you will need access to K-12 student assessment data, K-12 faculty, and K-12 curriculum, throughout the entirety of the program. Checking the box below indicates you will have requisite K-12 access for the entirety of the program.\" I am probably over-analyzing this, but as a K-5 Music Teacher do I meet this requirement? I obviously have access to my co-workers and the curriculums they are using, but Music Education is very DIY. Thanks in advance for any advice! (Cross-posted this in the WGUTeacherCollege page) submitted by /u/Several-Ad1430 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t9lvct/attempting_to_enroll_in_ms_in_curriculum_and/",
+        "author": "Several-Ad1430",
+        "created_utc": 1778454483.0,
+        "created_at": "2026-05-10T23:08:03+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1t5sw7m",
+        "subreddit": "WGU",
+        "title": "Enrollment Process",
+        "content": "I already finished the enrollment process a while ago but still needed to transfer some credits over from a previous college. I had contacted the enrollment office for further assistance and was transferred twice and hung up on three times lol is this a serious school? submitted by /u/Square-Reindeer-3118 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t5sw7m/enrollment_process/",
+        "author": "Square-Reindeer-3118",
+        "created_utc": 1778108455.0,
+        "created_at": "2026-05-06T23:00:55+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tq7ud4",
+        "subreddit": "WGU",
+        "title": "Randomly Dropped by School",
+        "content": "I completed all of my prerequisites such as the Commit to Start, Orientation, Financial Aid, etc. Three days before my first day of class and the school has randomly kicked me out. My account is even locked. I called enrollment and was told to call admissions, I called admissions and they told me to write admission an email. I wrote an email and am awaiting a response. Craziness. submitted by /u/KingDerpaLerpa [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tq7ud4/randomly_dropped_by_school/",
+        "author": "KingDerpaLerpa",
+        "created_utc": 1779984066.0,
+        "created_at": "2026-05-28T16:01:06+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1te54ks",
+        "subreddit": "WGU",
+        "title": "MS Comp Sci foundations appeal question",
+        "content": "I recently applied for the MS Comp Sci and I\u2019m coming in with a BS in Computer Engineering from an accredited university. I took all of the foundational computer science courses in my undergraduate studies. Intro to programming, object oriented design, data structures, algorithms, computer architecture, operating systems.. apparently admissions team deems this isn\u2019t enough to avoid the CS fundamentals course before admission into the program. on top of my degree, I also work full time as a software engineer. it seems odd to have to do this. I am appealing the decision, though I am curious if anyone has successfully appealed having to take the fundamentals course? submitted by /u/TheRealNotUBRz [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1te54ks/ms_comp_sci_foundations_appeal_question/",
+        "author": "TheRealNotUBRz",
+        "created_utc": 1778870319.0,
+        "created_at": "2026-05-15T18:38:39+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tan16v",
+        "subreddit": "WGU",
+        "title": "Calculus is ruining me",
+        "content": "I\u2019m struggling to pass calculus. I don\u2019t know what it is, I met with the professors and they said I was ready. I got just under passing again\u2026 I don\u2019t what to do. I saw older post stating to do it on \u201cSophia learning\u201d but I don\u2019t think WGU is accepting transfer credits after admission. Anything I can ask for to help with me passing? submitted by /u/LexiResto [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tan16v/calculus_is_ruining_me/",
+        "author": "LexiResto",
+        "created_utc": 1778549525.0,
+        "created_at": "2026-05-12T01:32:05+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1taf7po",
+        "subreddit": "WGU",
+        "title": "How to get Approved for In-House Proctoring",
+        "content": "Been a long-time lurker as I'm looking to get a BS Finance and a BS Computer Science and I'm shopping around. WGU seems like a strong option, as I've already tried them out before for a month or so, but I'm not dealing with these outsourced, offshore ProctorU proctors. I don't care if other people never had a problem. We pay too much money and put in too much effort just for someone who isn't even at WGU to give us a problem. They're anal and unreasonable about the room you're in. You can't have any interruptions, even if it's just kids who clearly aren't helping you cheat. Now they're snooping through private files? Fuck that. That's so fucking shady. And I'm not even getting into the whole data privacy aspect of it all. Recordings of my machine? In an offshore, outsourced company's servers? FUCKKKK that. And it's so disrespectful on WGU's part to outsource labor anyways. Are your own students and grads not good enough? What does that say about the quality of WGU's education, online or on-campus? WGU is already getting a small-but-growing reputation of being a diploma mill for being a popular online school, even despite the accreditation. We already know most 4-year degrees are just to check off an old-school, outdated job requirement. Nearly half of new grads are unemployed. I'm university shopping and I've pressed all the online and in-campus options and literally none of them have an answer for these problems but have the NERVE to charge us thousands of dollars. And yet... I WILL PAY MORE FOR IN-HOUSE - as in an in-house WGU employee, not literally in my house. apparently I have to say this - SERVICE. HIRE YOUR OWN GRADS AND STUDENTS AND LOCALS WHO NEED WORK. SO MANY PEOPLE NEED WORK. YOU DONT HAVE TO OUTSOURCE TO SHITTY OFFSHORE COMPANIES. PROVE THAT YOU BELIEVE IN YOUR OWN CREDENTIALS. Or at LEAST add an in-person option like PearsonVUE. Is there ANY way I can get immediately approved for in-house proctoring without going through the bullshit of getting railed",
+        "url": "https://www.reddit.com/r/WGU/comments/1taf7po/how_to_get_approved_for_inhouse_proctoring/",
+        "author": "throwawayyyyvibessss",
+        "created_utc": 1778530855.0,
+        "created_at": "2026-05-11T20:20:55+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1t8s8uq",
+        "subreddit": "WGU",
+        "title": "Admissions to start July 1",
+        "content": "Hey guy, I decided on a whim to get back in school to get my masters. I\u2019ve been studying for the last month and a half for data+ cert so I could meet admission requirements to MSDA program . Im planning to take my test towards the end of the month but I\u2019m not 100% if my admissions and what not would be processed by the 1st. I\u2019ve seen ppl mention that everything needs to be submitted by the 5th. Which is correct ? Is it the 1st but they give another 4 day grace period ? I kindof just want a piece of mind about when I\u2019ll be starting. I\u2019m thinking of scheduling it anywhere between the 22-26. I have an appointment w my advisor on the 28th. submitted by /u/Fit_Foundation_6661 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t8s8uq/admissions_to_start_july_1/",
+        "author": "Fit_Foundation_6661",
+        "created_utc": 1778374144.0,
+        "created_at": "2026-05-10T00:49:04+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1t617tc",
+        "subreddit": "WGU",
+        "title": "Start date July 1st??",
+        "content": "I would like to start on June 1st but the option is greyed out and only July 1st and beyond is available. it\u2019s only the beginning of May and lowkey i would prefer not waiting 2 months to start. I just submitted the admission form and my transcripts. Would I be able to start on June ? submitted by /u/ChapterSubject9499 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t617tc/start_date_july_1st/",
+        "author": "ChapterSubject9499",
+        "created_utc": 1778131604.0,
+        "created_at": "2026-05-07T05:26:44+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1t3n684",
+        "subreddit": "WGU",
+        "title": "How long for admission in MBA",
+        "content": "I finished my bachelors with WGU in the beginning of April. My term is technically finished at the end of July. I\u2019ve already applied to the MBA program. How long does it take for a the application to go through? Is there usually a wait or will I be good to start August 1st? submitted by /u/Zozo_m [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1t3n684/how_long_for_admission_in_mba/",
+        "author": "Zozo_m",
+        "created_utc": 1777912988.0,
+        "created_at": "2026-05-04T16:43:08+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tt5esp",
+        "subreddit": "WGU",
+        "title": "Re enrolling",
+        "content": "I emailed last week about re enrolling, I still haven\u2019t heard from anyone. What should I do? submitted by /u/Truecrimejunkie1312 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tt5esp/re_enrolling/",
+        "author": "Truecrimejunkie1312",
+        "created_utc": 1780256883.0,
+        "created_at": "2026-05-31T19:48:03+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1trnfd6",
+        "subreddit": "WGU",
+        "title": "thinking of dropping out",
+        "content": "im under a ton of stress currently and heavily considering dropping out once my current term ends. once im in a more stable position i would love to finish up my degree, i dont have much left but my current mental state has been a massive barrier. is it possible to re-enroll at WGU in a year or two when ive finally got some of my ducks in a row and just pick up where i left off? submitted by /u/brother_perro [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1trnfd6/thinking_of_dropping_out/",
+        "author": "brother_perro",
+        "created_utc": 1780108691.0,
+        "created_at": "2026-05-30T02:38:11+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tqhpwd",
+        "subreddit": "WGU",
+        "title": "chapter 35 full time",
+        "content": "Hello, I have a question. Anyone who gets VA benefits while enrolled at WGU. Will I still get the back pay for Chapter 35 if I finish the last class for full-time through an extension? My term is supposed to end on May 31st, and I am worried that if I don't test this week, I will miss out on the remaining amount from Chapter 35. submitted by /u/CommercialOven8054 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tqhpwd/chapter_35_full_time/",
+        "author": "CommercialOven8054",
+        "created_utc": 1780005067.0,
+        "created_at": "2026-05-28T21:51:07+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tprk3h",
+        "subreddit": "WGU",
+        "title": "Is it possible: enrollment into WGU whilst attending highschool?",
+        "content": "Due to my GED transcript being incomplete, I've been wondering if WGU offers some sort of dual enrollment program for highchool\u200b students. I am about to enter my sophomore year of highschool and I want to get into marketing. Can it be possible if I'm on the acceleratied/\"gifted\" route? submitted by /u/Appropriate_Rain_850 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tprk3h/is_it_possible_enrollment_into_wgu_whilst/",
+        "author": "Appropriate_Rain_850",
+        "created_utc": 1779938356.0,
+        "created_at": "2026-05-28T03:19:16+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tpmxqy",
+        "subreddit": "WGU",
+        "title": "If you \"speedrun\" a degree really fast from this university, but your employer looks up this university out of curiosity and then finds out about its reputation, wouldn't it make your degree useless to a lot of employers?",
+        "content": "I ask because I know I can complete the degree at an accelerated pace if I enroll, but this concern seems very legitimate and troubling. submitted by /u/Creative_Row9802 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tpmxqy/if_you_speedrun_a_degree_really_fast_from_this/",
+        "author": "Creative_Row9802",
+        "created_utc": 1779926132.0,
+        "created_at": "2026-05-27T23:55:32+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tou01s",
+        "subreddit": "WGU",
+        "title": "D269 Incoming.",
+        "content": "I have avoided a college composition course all this time, but not for much longer. I'm enrolled in D269 and have one class to finish before I start it. Does anyone have any tips or anything from when they passed this class before? My usual approach to these courses is to complete the Learning Tool, read the material, take any practice assessments within the material, and then complete the PA. It's a bit different for OA classes, but that doesn't apply here. I'm just wondering if anyone has any tips. I'm stressed about having to write 3 PAs on English Comp. submitted by /u/BackgroundCelery4293 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tou01s/d269_incoming/",
+        "author": "BackgroundCelery4293",
+        "created_utc": 1779853769.0,
+        "created_at": "2026-05-27T03:49:29+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tonp1m",
+        "subreddit": "WGU",
+        "title": "Is it worth pay to do the CompTIA A+ and ITIL before enrolling at WGU?",
+        "content": "I'm planning to enroll July or August 1st in the BSCSIA program. I already completed all the ACE credits that were suggested with Study.com. But I see a lot of people suggestion doing A+ and/or ITIL before enrolling. My thinking is that given WGU's self-paced model, I could probably clear those three courses within the first few weeks of my first term and it wouldn't realistically push me into a third term. So the $930 upfront might not actually save me anything. For those who've been through the BSCSIA or a similar program, was it worth paying for A+ and/or ITIL before enrollment, or did you just handle it inside WGU? Did those courses actually take long enough to matter term-wise? Appreciate any real experience here. submitted by /u/Advanced_Focus6230 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tonp1m/is_it_worth_pay_to_do_the_comptia_a_and_itil/",
+        "author": "Advanced_Focus6230",
+        "created_utc": 1779837384.0,
+        "created_at": "2026-05-26T23:16:24+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tom05k",
+        "subreddit": "WGU",
+        "title": "SAP Score After Dropping Extra Class",
+        "content": "Can someone help me understand this: My current Cumulative SAP is 65% (28 courses completed with 43 courses enrolled). My semester ends 5/31. I am in one last class this week that\u2019s pretty tough (C214). My program mentor emailed me today to give me the option to drop the class since we\u2019re close to the end of the semester. He states that since I passed my mandated 3 Courses already, that dropping this 5th course would not affect my SAP. I asked him to verify that my Cumulative SAP would show as 70% instead of the 65%. My math is that dropping C214 would show as 28 courses completed with 40 courses enrolled. He had me call Financial Aid to verify. The Financial Aid person told me to talk to my Program Mentor and sent me the SAP appeal information since he saw my 65% Cumulative SAP score. My program mentor has not replied back since I told him about what the Financial Aid guy said. Has anyone dealt with this? I didn\u2019t think dropping the course was an option. I would drop it in a heartbeat, but I rely on financial aid for the next semester. submitted by /u/thankukindy [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tom05k/sap_score_after_dropping_extra_class/",
+        "author": "thankukindy",
+        "created_utc": 1779833439.0,
+        "created_at": "2026-05-26T22:10:39+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tntnf4",
+        "subreddit": "WGU",
+        "title": "Almost done!!!",
+        "content": "Well I just have my 3 OAs to complete and I\u2019m done! submitted by /u/NotAHomoBro [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tntnf4/almost_done/",
+        "author": "NotAHomoBro",
+        "created_utc": 1779762714.0,
+        "created_at": "2026-05-26T02:31:54+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tnndw7",
+        "subreddit": "WGU",
+        "title": "C214- PA does not follow the OA",
+        "content": "I just enrolled in this today and got the Community of Care email. It specifically says \u201c The pre-assessment and the assessment do not follow the same pattern of equation-based and concept questions. The assessment has the greater concentration of concept questions and spending time in the e-textbook is highly recommended. Your Pre-Assessment and OA Coaching Reports will be accessed from the COURSE INFORMATION Section at the very bottom of the C214 Course Page.\u201d Trying to understand then if the PA is even useful to take then? And if not what\u2019s the point of having it? This class is already stressing me out and seems difficult enough I wonder why they make it more difficult by not following the pattern for every other course. Those who have taken it what are your thoughts? Thanks! submitted by /u/msmxmoxie [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tnndw7/c214_pa_does_not_follow_the_oa/",
+        "author": "msmxmoxie",
+        "created_utc": 1779746585.0,
+        "created_at": "2026-05-25T22:03:05+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tnk24x",
+        "subreddit": "WGU",
+        "title": "Has anyone attended WGU with no professional experience?",
+        "content": "Hi! I asked this question for many reasons, but mostly because I am looking for some success stories. I've been doing classes on Sophia for a while now, with the intention of enrolling at WGU for supply chain. I have been struggling with motivation lately, as the prospect of finding a job has entered my mind. What if I graduate, but no one will hire me because my degree is from WGU? This has really really slowed down my progress, and makes me wonder if I'm making the right decision. The furthest my experience goes is being a department lead in a grocery store, which I don't think will get me very far... so I'm pretty much starting fresh. Has anyone \"started fresh\" in a new field after graduating WGU? How are you doing now? submitted by /u/LegendSaco [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tnk24x/has_anyone_attended_wgu_with_no_professional/",
+        "author": "LegendSaco",
+        "created_utc": 1779739042.0,
+        "created_at": "2026-05-25T19:57:22+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tnczvr",
+        "subreddit": "WGU",
+        "title": "WGU BSCIA",
+        "content": "Hello Everyone, I am currently looking to enroll into the BSCIA program and looking for some more info, I have done countless hours of research stating that it is possible to transfer in Credits from Sophia/Coursera IT Courses and looking for some honest reviews and some general advice about the overall Job Market currently. I have 3 Years of prior IT Tech 2/Helpdesk and Network Admin experience at a Local MSP that closed during the lovely Covid Times, and about 10 Years of Self Taught/On the side work. Post Covid it seemed impossible to get back into the field without a Degree Life has now slowed down and I have 40-60 Hours most weeks to throw into furthering my education. I have previously attained (in highschool 12-14 Years ago), and plan to attain Comp TIA A+ and Net+ again before enrolling. Currently Employed as Back End Support at a large Distribution Company specializing in Cisco Deployments/Order and Subscription Management and troubleshooting. My question would be following this degree and certifications, some home labs and projects. Is there a decent outcome to be had in this current Job Market? Any and All advice would be massively appreciated as im looking to make this next Major step into a Cyber Security Career! submitted by /u/SenpaiHusk [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tnczvr/wgu_bscia/",
+        "author": "SenpaiHusk",
+        "created_utc": 1779723942.0,
+        "created_at": "2026-05-25T15:45:42+00:00",
+        "sentiment": "negative"
+      },
+      {
+        "id": "1tmnxkc",
+        "subreddit": "WGU",
+        "title": "B.S. in Finance Pathway",
+        "content": "I'm currently set to enroll in the program August 1st this year. I would like to complete the program as quickly as possible so I may use my CFP certification. I've already completed the work experience and educational curriculum, along passed the exam, but they have a hard and fast rule of needing an accredited bachelors degree. I have about 13 years experience being in the financial services/planning and advisory world. I also run an RIA firm with two other partners, so the Finance degree fits for my long term career. Someone suggested doing Study.com for general ed/undergraduate classes before enrolling. I've done a few classes, the amount of lessons and chapter tests for some classes seem overkill. Not to mention the assignments seem weirdly constructed and graded by AI programs. For anyone who's done Study.com or a similar path: is it worth it do their classes first? Or would WGU from the beginning just be easier and quicker? Thanks in advance for any help and suggestions. \u200b submitted by /u/Far_Math_8360 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tmnxkc/bs_in_finance_pathway/",
+        "author": "Far_Math_8360",
+        "created_utc": 1779656010.0,
+        "created_at": "2026-05-24T20:53:30+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tmjdhf",
+        "subreddit": "WGU",
+        "title": "B.S. in Psychology and Health Science?",
+        "content": "Okay, so I\u2019m currently enrolled in the Psychology program and recently took a look into the health science program. A lot of courses are the same in psychology. With the addition of some Sophia classes I could cover most of the degree. I know you can only cover up to 75% but on the site there were classes that I took in my psychology program that are classified as \u201cnon transferable\u201d. Has anyone ever completed duel degrees at WGU? Have they ever made an exception to those classes? submitted by /u/Carefree_crybaby [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tmjdhf/bs_in_psychology_and_health_science/",
+        "author": "Carefree_crybaby",
+        "created_utc": 1779645657.0,
+        "created_at": "2026-05-24T18:00:57+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tme8rk",
+        "subreddit": "WGU",
+        "title": "BSIT and Sophia Learning",
+        "content": "I\u2019m interested in perusing the BSIT in WGU and I just enrolled into Sophia Learning in hopes to transfer some credits over. Does anyone have any direct pathway transfer lists for this specific degree? And just for a little bit of background I have actually worked in just about every department of IT for the last 5 years via federal government and local government so I\u2019m sure everything won\u2019t be too hard to get through the BSIT program for me. submitted by /u/One_Specialist_7464 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tme8rk/bsit_and_sophia_learning/",
+        "author": "One_Specialist_7464",
+        "created_utc": 1779634171.0,
+        "created_at": "2026-05-24T14:49:31+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tshmuo",
+        "subreddit": "WGU",
+        "title": "A mindset shift that may help if D335 feels impossible",
+        "content": "https://preview.redd.it/2086ytxgld4h1.png?width=1693&format=png&auto=webp&s=be136a8323f43e302777b81400d971535d6ac7c8 As the Associate Dean over AI Engineering and Software Engineering, I have been thinking a lot about why D335 hits some students so hard. This is not a \"Zybooks is perfect\" post. Some students find it dry, picky, or hard to learn from directly, and I understand why people look for outside resources when the course is not clicking. D335 has also changed over time, so older Reddit advice may not match the version of the course someone is seeing now. Current course materials still have to be the source of truth. But I do think there is a mindset shift that helps, especially for students who are new to programming. D335 is not only asking whether you know Python syntax. It is asking whether you can read a constrained problem, figure out what the system expects, test your assumptions, and adjust when the output does not match. That is a real programming skill. If the lab wants exact output, exact output is part of the problem. If spacing matters, spacing is part of the problem. If the answer is close but still fails, the useful question is not only \"Why is Zybooks being picky?\" It is \"What is the system telling me about the gap between my answer and the required answer?\" That does not mean the course content is the best. It does not mean students should avoid YouTube, books, tutors, ChatGPT explanations, or anything else that helps the concept make sense. It does mean that after those resources help, the student still has to come back to the course environment and practice inside the constraints where the work is evaluated. The programmer's mindset is not magic. It is mostly a habit of asking better questions while you work. What is the prompt actually asking for? What input do I have? What exact output is expected? What examples or tests can I use? What small piece can I build first? What did the failed attempt tell me? What assumption do I need to revise",
+        "url": "https://www.reddit.com/r/WGU/comments/1tshmuo/a_mindset_shift_that_may_help_if_d335_feels/",
+        "author": "Jared_Plumb",
+        "created_utc": 1780191470.0,
+        "created_at": "2026-05-31T01:37:50+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1trgqt5",
+        "subreddit": "WGU",
+        "title": "Academic Authenticity for speaking questions out loud.",
+        "content": "Okay so in the middle of an exam I guess I didn't realize I was doing it. Sometimes I read stuff out loud to help with comprehension when I'm losing focus. The evaluator interrupted the test to give me a warning and I apologized. It wouldn't let me answer the question I was on though. I resumed the test like normal and passed. Now a few days later I got the following warning and having crazy anxiety. Does it really take 3 weeks??? I was going to start my capstone early next week and I can't finish my last OAs now. Am I cooked? submitted by /u/GingerBreadStud92 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1trgqt5/academic_authenticity_for_speaking_questions_out/",
+        "author": "GingerBreadStud92",
+        "created_utc": 1780091229.0,
+        "created_at": "2026-05-29T21:47:09+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1trdysu",
+        "subreddit": "WGU",
+        "title": "How strict is the 8 inch minimum elevation rule for the webcam for OAs?",
+        "content": "Hi, new student here. I have an old webcam which matches tech requirements but the field of view is kind of narrow, so I end up putting it kind of behind my monitor a bit so it can angle up toward my face and catch the desk surface and the hands. Were I to elevate it, my monitor would block my face. So according to the rules, I either need to reorganize my entire workspace or get a webcam with a wider field of view. But in the webcam demonstration video in orientation, the webcam was placed maybe 1.5 inches above the desk. What do you think? I appreciate any input. submitted by /u/Less_Department_6880 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1trdysu/how_strict_is_the_8_inch_minimum_elevation_rule/",
+        "author": "Less_Department_6880",
+        "created_utc": 1780085064.0,
+        "created_at": "2026-05-29T20:04:24+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1traveh",
+        "subreddit": "WGU",
+        "title": "B.S Psych and nearly regretting my decision to go with WGU, any help or even relatable experiences welcome",
+        "content": "Prior to my rant, I guess what I'm hoping for is: Are there any places to connect with students from the specific degree programs that actually want to connect? WGU connect and the unofficial Discord are great....for other programs. I've tried to connect but with how different everyone is in the course programs it makes it difficult \ud83d\ude1e I think with the Psych being so new it's just not as well developed yet. And I'm already awkward as fuu so it makes it double hard. 2: For the psych degree plan, does anyone have any idea of a good structure for how they approached it? The material is so thrown together it's difficult to really make heads or tails about what to focus on. (For example, Theories of Personality, they say to focus on the theorists but then the course is a beast and doesn't follow the theorists at all and we're left to piece the things together) This will be a bit of a rant, but it's relevant, so I apologize ahead of time. I also want to preface this by saying I am usually very organized. I have physical calendars, specific course notebooks and I approach each course carefully by reading the topics we're learning about and using Obsidian to make sure I'm ready for note taking based on the format of delivery, but when the content is laid out the way it is, it's difficult to do. Idk, maybe I'm just dumber than I thought. I'm going through the program and it feels like the lack of communication between everyone is absolutely wild. The mentors (while absolutely lovely souls) are basically there for moral support, and to direct you to the other departments should you need. If I need tutoring(which I do) they point me to Peer coach or Academic coach, which I tried several times(again, all very lovely people!!), but all they do is give study tips and other WGU article resources, which I'm absolutely not knocking. But I needed a tutor. So I contact the instructors of the class, as so highly recommended, and while again, they're nice people, I question the qualifica",
+        "url": "https://www.reddit.com/r/WGU/comments/1traveh/bs_psych_and_nearly_regretting_my_decision_to_go/",
+        "author": "Ok_Mistake2047",
+        "created_utc": 1780079024.0,
+        "created_at": "2026-05-29T18:23:44+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tq2kjm",
+        "subreddit": "WGU",
+        "title": "New mentor",
+        "content": "Who do I need to get in touch with to request a new mentor? The one I have, gave me bad vibes from the very beginning, and she never responds to any of my texts or emails and rarely calls me. Has anyone gone through this before? ETA: thank you to whoever gave me the email address for student services. I emailed them and they got back to me within a couple minutes. They are getting me a new mentor and I'll hear something back in the next few days. submitted by /u/SafetyFine161 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tq2kjm/new_mentor/",
+        "author": "SafetyFine161",
+        "created_utc": 1779972407.0,
+        "created_at": "2026-05-28T12:46:47+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1to9a1z",
+        "subreddit": "WGU",
+        "title": "C722 Project management looking for advice",
+        "content": "This is my last course before finishing my degree, and I start a new job next Monday that requires me to already be fully graduated. I need to pass C722 within the next 4 days, so I\u2019m looking for serious advice from people who actually got through this course. I\u2019ll be blunt: this course setup feels terrible for students trying to move at an accelerated pace. The prerecorded cohorts have been extremely hard to sit through. The instructor constantly goes off topic, moves at a painfully slow pace, and even at 2x speed it feels exhausting. A lot of the time, instead of directly teaching the material, they just point you back to the textbook while continuing with unrelated examples. The mini cohort videos are not much better because they skip around and assume you already understand parts of the material. The Excel study guide mostly feels like a vocabulary sheet instead of something that teaches real application. The textbook is repetitive and honestly not helping me retain much. I\u2019ve worked hard to get through my degree, and I have a strong background in logistics and operations, but not in project management. I\u2019m not trying to master PM or become passionate about it right now. I just need to understand this course well enough to pass quickly and finish for good. For people who passed C722 recently: What actually helped you pass? What should I focus on vs ignore? Did you mainly use the textbook, cohorts, Quizlet, study guides, or something else? How close is the OA to the study guide and practice questions? Any tips for someone who learns better through simplification and application than endless reading? Honestly, courses like D099 and D080 were much easier for me to learn and retain than this one. Any real advice would seriously help submitted by /u/LuckSold [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1to9a1z/c722_project_management_looking_for_advice/",
+        "author": "LuckSold",
+        "created_utc": 1779807068.0,
+        "created_at": "2026-05-26T14:51:08+00:00",
+        "sentiment": "negative"
+      },
+      {
+        "id": "1tmuncw",
+        "subreddit": "WGU",
+        "title": "NEW STUDENT",
+        "content": "PLEASE WISH ME LUCK ON MY JOURNEY TO BSN RN! TY submitted by /u/RICAN_SMART [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tmuncw/new_student/",
+        "author": "RICAN_SMART",
+        "created_utc": 1779673067.0,
+        "created_at": "2026-05-25T01:37:47+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tkkgw9",
+        "subreddit": "WGU",
+        "title": "Anyone in the BSHIM program here?",
+        "content": "Hello fellow night owls, I\u2019ve been accepted into the BSHIM program and I\u2019m new to the whole WGU experience. Im looking for any important info that I may need or tips for complete it this program. As I look through this subreddit, I barely see any students post about this particular program. Where are my follow Health IT folks at???!! Is this a hard program or just not too many ppl interested in this degree? If anyone comes across this post, please hit me up. I start July 1st if all goes well. I\u2019m looking forward to this degree and hopefully connecting with any graduates or current student \ud83d\ude0a submitted by /u/OctoberLotus14 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tkkgw9/anyone_in_the_bshim_program_here/",
+        "author": "OctoberLotus14",
+        "created_utc": 1779459727.0,
+        "created_at": "2026-05-22T14:22:07+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1titzvl",
+        "subreddit": "WGU",
+        "title": "Has anyone completed WGU coursework while temporarily living outside the U.S.?",
+        "content": "Has anyone completed WGU (Western Governors University) coursework while temporarily living outside the U.S.? I\u2019m specifically referring to the theory/online coursework portion (not student teaching or clinicals). I would still return to the U.S. later for demonstration teaching. I\u2019m mainly wondering about: access to the learning platform overseas proctored exams VPN/network issues whether anyone had enrollment problems while abroad Would love to hear real experiences. Thanks! submitted by /u/New-Strategy-5562 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1titzvl/has_anyone_completed_wgu_coursework_while/",
+        "author": "New-Strategy-5562",
+        "created_utc": 1779300886.0,
+        "created_at": "2026-05-20T18:14:46+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tikkc3",
+        "subreddit": "WGU",
+        "title": "Anyone in the BSHIM program here?",
+        "content": "Hello fellow night owls, I\u2019ve been accepted into the BSHIM program and I\u2019m new to the whole WGU experience. Im looking for any important info that I may need or tips for complete it this program. As I look through this subreddit, I barely see any students post about this particular program. Where are my follow Health IT folks at???!! Is this a hard program or just not too many ppl interested in this degree? If anyone comes across this post, please hit me up. I start July 1st if all goes well. I\u2019m looking forward to this degree and hopefully connecting with any graduates or current student \ud83d\ude0a submitted by /u/OctoberLotus14 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tikkc3/anyone_in_the_bshim_program_here/",
+        "author": "OctoberLotus14",
+        "created_utc": 1779280995.0,
+        "created_at": "2026-05-20T12:43:15+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1thpsr8",
+        "subreddit": "WGU",
+        "title": "Well well. Red Flags: Potential Phishing/Spam Emails Targeting WGU Students",
+        "content": "Hey everyone \u2014 wanted to give you a heads up. If you\u2019re a WGU student, be careful about emails claiming to be from WGU Financial Aid, Student Services, or other departments. Here\u2019s what to watch for: \u2022 Email address doesn\u2019t end in @wgu.edu \u2014 This is the biggest one. Legit WGU emails come from official WGU domains. \u2022 Generic greetings like \u201cDear Student\u201d instead of your actual name \u2022 Suspicious links \u2014 Hover over links before clicking. Do they go to official WGU domains or random URLs? \u2022 Requests for personal info \u2014 WGU will never ask you to confirm passwords, SSN, or banking details via email \u2022 Urgency language \u2014 \u201cAct now!\u201d or \u201cYour account will be locked!\u201d \u2022 Grammar/spelling errors \u2014 Official emails are usually polished \u2022 Too good to be true offers \u2014 Unexpected refunds, grants, or \u201cnew aid available\u201d If you get a suspicious email: \u2022 Don\u2019t click links or download attachments \u2022 Don\u2019t reply with personal info \u2022 Forward it to abuse@wgu.edu \u2014 Include the full email header if possible \u2022 Report it to your email provider as spam/phishing \u2022 Verify directly \u2014 Go to wgu.edu yourself (don\u2019t click email links) and log into your student portal to check for real messages submitted by /u/PapayaSad8457 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1thpsr8/well_well_red_flags_potential_phishingspam_emails/",
+        "author": "PapayaSad8457",
+        "created_utc": 1779203304.0,
+        "created_at": "2026-05-19T15:08:24+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1th8z1o",
+        "subreddit": "WGU",
+        "title": "WGU B.S. Business Management Students, I Need Honest Advice.",
+        "content": "Hi everyone! I\u2019m getting ready to start the B.S. Business Management program at WGU on June 1st, and I\u2019m looking for some last-minute advice from current students, alumni, or anyone recently graduated from the program. I only have 15 courses left to complete my degree (I attached my remaining classes), and I wanted to ask: - How were these classes for you overall? - Which classes were the easiest or most difficult? - Were the proctored exam classes hard? I\u2019m especially nervous about those two classes. - For graduates, how long did it take you to finish your remaining courses? - Do you think it\u2019s realistic to accelerate and finish 15 courses quickly? A little about me: I\u2019m currently a child care teacher and hoping to switch careers with this degree. If anyone has successfully transitioned into a new career field with this degree, I would love to hear your experience as well. Also, if you have any tips, study advice, acceleration strategies, or words of encouragement, please feel free to share. I\u2019m honestly super nervous but also excited to start this next chapter. Thank you so much in advance! submitted by /u/Double-Medicine-6536 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1th8z1o/wgu_bs_business_management_students_i_need_honest/",
+        "author": "Double-Medicine-6536",
+        "created_utc": 1779156491.0,
+        "created_at": "2026-05-19T02:08:11+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1th7yhp",
+        "subreddit": "WGU",
+        "title": "BS Healthcare admin",
+        "content": "Anyone do any of these classes yet? How were they? Trying to zoom through these but slowed down a bit submitted by /u/Adventurous-Pea3012 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1th7yhp/bs_healthcare_admin/",
+        "author": "Adventurous-Pea3012",
+        "created_utc": 1779153890.0,
+        "created_at": "2026-05-19T01:24:50+00:00",
+        "sentiment": "negative"
+      },
+      {
+        "id": "1tgvhr8",
+        "subreddit": "WGU",
+        "title": "At-Risk Coordinator",
+        "content": "Hello, I am looking for advice. Today at work, my school's At-Risk Coordinator pulled me aside to talk to me about becoming one. In my district, you need an education degree. I am about to complete my degree, and I am currently enrolled in iTeach. He brought this to us because my coworkers have made recommendations or expressed their opinions about how well I reach children in need. I am honored that my coworkers think very highly of me with my approach to at-risk students. However, the same teachers said that when I step in and teach, they see more student involvement and engagement. Students have done better after I teach the lesson. I guess what I am asking is, has anyone experienced something like that? This gentleman has been in the district for a while and is recommending me for this position. I joined education because I believe all children deserve a teacher or an adult who cares for them. I don't know what to do. I am working on securing a job for next school year, and I thought I had a path. HELP! submitted by /u/Reasonable_Row_2299 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tgvhr8/atrisk_coordinator/",
+        "author": "Reasonable_Row_2299",
+        "created_utc": 1779127867.0,
+        "created_at": "2026-05-18T18:11:07+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tfb5qv",
+        "subreddit": "WGU",
+        "title": "Almost there",
+        "content": "Its so close I can almost taste it. submitted by /u/Fit-Foundation746 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tfb5qv/almost_there/",
+        "author": "Fit-Foundation746",
+        "created_utc": 1778980381.0,
+        "created_at": "2026-05-17T01:13:01+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tf38ui",
+        "subreddit": "WGU",
+        "title": "Help!",
+        "content": "I did one class on Study.com in 2024, then moved to WGU. I had to drop out because I wasn\u2019t able to complete what I needed to because of work and kids. I am considering going back, but I haven\u2019t paid my student loans.. could I do some more classes on study and re-enroll? submitted by /u/Truecrimejunkie1312 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGU/comments/1tf38ui/help/",
+        "author": "Truecrimejunkie1312",
+        "created_utc": 1778959956.0,
+        "created_at": "2026-05-16T19:32:36+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tkskd6",
+        "subreddit": "WGUTeachersCollege",
+        "title": "Student teaching/clinicals",
+        "content": "So I switched from licensure to non licensure for my BA (I completed early clinicals and praxis exams though). I now am enrolled in the masters program for elementary education and my question is does anyone think it\u2019s possible to finish student teaching this upcoming fall semester?? The tricky part is I know I would have to redo early clinicals and then wait to apply for advanced clinicals. I am due to give birth december 12th and so I would probably miss the last week of the semester too but i definitely don\u2019t want to student teach postpartum \ud83d\ude2c any advice on how to make this process quicker? Thanks! submitted by /u/Desperate_Love_3662 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGUTeachersCollege/comments/1tkskd6/student_teachingclinicals/",
+        "author": "Desperate_Love_3662",
+        "created_utc": 1779476650.0,
+        "created_at": "2026-05-22T19:04:10+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1tc8c9i",
+        "subreddit": "WGUTeachersCollege",
+        "title": "Prerequisites for MAT Secondary Education, English",
+        "content": "I have a bachelor's in Literature with around 40 credit hours in literature classes and a high GPA. That technically fulfills their advertised requirements, but the admissions counselors are saying that I may still have to take additional prerequisites. Does anyone have any experience with this? I know he said he's had journalism students have this issue, but I'm wondering what literature majors have experienced. submitted by /u/Prudent-Run-6919 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGUTeachersCollege/comments/1tc8c9i/prerequisites_for_mat_secondary_education_english/",
+        "author": "Prudent-Run-6919",
+        "created_utc": 1778696830.0,
+        "created_at": "2026-05-13T18:27:10+00:00",
+        "sentiment": "negative"
+      },
+      {
+        "id": "1tj5e3n",
+        "subreddit": "WGUTeachersCollege",
+        "title": "Has anyone completed WGU coursework while temporarily living outside the U.S.?",
+        "content": "Has anyone completed WGU coursework while temporarily living outside the U.S.? I\u2019m specifically referring to the theory/online coursework portion (not student teaching or clinicals). I would still return to the U.S. later for demonstration teaching. I\u2019m mainly wondering about: access to the learning platform overseas proctored exams VPN/network issues whether anyone had enrollment problems while abroad Would love to hear real experiences. Thanks! submitted by /u/New-Strategy-5562 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGUTeachersCollege/comments/1tj5e3n/has_anyone_completed_wgu_coursework_while/",
+        "author": "New-Strategy-5562",
+        "created_utc": 1779326293.0,
+        "created_at": "2026-05-21T01:18:13+00:00",
+        "sentiment": "positive"
+      },
+      {
+        "id": "1teopum",
+        "subreddit": "WGUTeachersCollege",
+        "title": "NYS Certified",
+        "content": "For WGU students (in NEW YORK) who graduated OR are currently enrolled towards the end of their degree, how long did it take you to study and pass the NYSTCE childhood education 1-6 exams? Also, what materials did you use? submitted by /u/Few_You2617 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGUTeachersCollege/comments/1teopum/nys_certified/",
+        "author": "Few_You2617",
+        "created_utc": 1778923392.0,
+        "created_at": "2026-05-16T09:23:12+00:00",
+        "sentiment": "neutral"
+      },
+      {
+        "id": "1tbvblf",
+        "subreddit": "WGUTeachersCollege",
+        "title": "Student teaching",
+        "content": "I\u2019m knocking out courses in Sophia currently so I\u2019m not enrolled or able to talk to a mentor. How do student teaching placements work? I live in a district with about 30 elementary schools. 15 of them are schools we have basically inherited from a city that is well known for how rough it is between violence and poverty, to not give away too much about location. 9 are title I. I\u2019m not trying to come off weird, there are other schools on the other side of the county in rough areas that I wouldn\u2019t mind being placed at all, but the schools from the city are my worst nightmare. That being said, do I get ANY say or anything when it comes to placement, or will they just throw me wherever they can get me in? I\u2019ve seen that students can\u2019t reach out to schools themselves, but can we request schools through our mentor? I\u2019m trying to figure this out before I fully commit. submitted by /u/LopsidedCow543 [link] [comments]",
+        "url": "https://www.reddit.com/r/WGUTeachersCollege/comments/1tbvblf/student_teaching/",
+        "author": "LopsidedCow543",
+        "created_utc": 1778667171.0,
+        "created_at": "2026-05-13T10:12:51+00:00",
+        "sentiment": "negative"
+      }
+    ],
+    "summary": {
+      "total_items": 69,
+      "sentiment_counts": {
+        "positive": 20,
+        "negative": 5,
+        "neutral": 44
+      },
+      "sentiment_ratio": {
+        "positive_pct": 29.0,
+        "negative_pct": 7.2,
+        "neutral_pct": 63.8
+      },
+      "top_positive_posts": [
+        {
+          "title": "thinking of dropping out",
+          "url": "https://www.reddit.com/r/WGU/comments/1trnfd6/thinking_of_dropping_out/",
+          "created_at": "2026-05-30T02:38:11+00:00"
+        },
+        {
+          "title": "B.S Psych and nearly regretting my decision to go with WGU, any help or even relatable experiences welcome",
+          "url": "https://www.reddit.com/r/WGU/comments/1traveh/bs_psych_and_nearly_regretting_my_decision_to_go/",
+          "created_at": "2026-05-29T18:23:44+00:00"
+        },
+        {
+          "title": "chapter 35 full time",
+          "url": "https://www.reddit.com/r/WGU/comments/1tqhpwd/chapter_35_full_time/",
+          "created_at": "2026-05-28T21:51:07+00:00"
+        },
+        {
+          "title": "Should I delay my July 1 WGU start to finish more Sophia credits?",
+          "url": "https://www.reddit.com/r/WGU/comments/1tq6wyd/should_i_delay_my_july_1_wgu_start_to_finish_more/",
+          "created_at": "2026-05-28T15:27:58+00:00"
+        },
+        {
+          "title": "Is it worth pay to do the CompTIA A+ and ITIL before enrolling at WGU?",
+          "url": "https://www.reddit.com/r/WGU/comments/1tonp1m/is_it_worth_pay_to_do_the_comptia_a_and_itil/",
+          "created_at": "2026-05-26T23:16:24+00:00"
+        }
+      ],
+      "top_negative_posts": [
+        {
+          "title": "C722 Project management looking for advice",
+          "url": "https://www.reddit.com/r/WGU/comments/1to9a1z/c722_project_management_looking_for_advice/",
+          "created_at": "2026-05-26T14:51:08+00:00"
+        },
+        {
+          "title": "WGU BSCIA",
+          "url": "https://www.reddit.com/r/WGU/comments/1tnczvr/wgu_bscia/",
+          "created_at": "2026-05-25T15:45:42+00:00"
+        },
+        {
+          "title": "BS Healthcare admin",
+          "url": "https://www.reddit.com/r/WGU/comments/1th7yhp/bs_healthcare_admin/",
+          "created_at": "2026-05-19T01:24:50+00:00"
+        },
+        {
+          "title": "Prerequisites for MAT Secondary Education, English",
+          "url": "https://www.reddit.com/r/WGUTeachersCollege/comments/1tc8c9i/prerequisites_for_mat_secondary_education_english/",
+          "created_at": "2026-05-13T18:27:10+00:00"
+        },
+        {
+          "title": "Student teaching",
+          "url": "https://www.reddit.com/r/WGUTeachersCollege/comments/1tbvblf/student_teaching/",
+          "created_at": "2026-05-13T10:12:51+00:00"
+        }
+      ]
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,907 @@
+/* operations.css — Operations VP & Team view styles
+ * Assumes variables.css is loaded first for shared custom properties.
+ * Defines operations-specific properties and all component styles for
+ * the VP-level and Team-level operations views.
+ */
+
+/* ===== OPERATIONS-SPECIFIC CUSTOM PROPERTIES ===== */
+:root {
+    /* MI severity colors */
+    --mi-sev1: #c92e2e;
+    --mi-sev2: #c95e2e;
+    --mi-sev3: #9898b0;
+    --mi-sev4: var(--text-muted);
+
+    /* MI severity dim backgrounds */
+    --mi-sev1-dim: rgba(201, 46, 46, 0.12);
+    --mi-sev2-dim: rgba(201, 94, 46, 0.12);
+    --mi-sev3-dim: rgba(152, 152, 176, 0.08);
+    --mi-sev4-dim: rgba(152, 152, 176, 0.05);
+
+    /* Chart sizing */
+    --chart-min-height: 240px;
+    --chart-aspect-ratio: 2.5 / 1;
+
+    /* Card defaults */
+    --card-radius: 10px;
+    --card-padding: 1.5rem;
+    --card-gap: 1rem;
+}
+
+/* ===== PAGE HEADER ===== */
+.ops-header {
+    padding: 1.5rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.ops-header h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.back-link {
+    font-size: 0.8rem;
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.15s;
+}
+
+.back-link:hover {
+    opacity: 0.8;
+}
+
+.last-updated {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.last-updated.stale {
+    color: var(--grade-c);
+}
+
+/* ===== SECTION CONTAINERS ===== */
+.ops-section {
+    padding: 0 2rem 1.5rem;
+}
+
+/* ===== HERO ROW — FSI + ETRC side by side ===== */
+.ops-hero-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--card-gap);
+    padding: 0 2rem 1.5rem;
+}
+
+.ops-hero-panel {
+    min-width: 0; /* prevent grid blowout */
+}
+
+/* ===== FSI COMPOSITE CARD ===== */
+.fsi-composite-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    padding: var(--card-padding);
+}
+
+.fsi-score-display {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.fsi-score {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1;
+}
+
+.fsi-status-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.fsi-trend {
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.fsi-trend.up {
+    color: var(--mi-sev1);
+    background: var(--red-dim);
+}
+
+.fsi-trend.down {
+    color: var(--fsi-optimal);
+    background: var(--green-dim);
+}
+
+.fsi-trend.flat {
+    color: var(--text-muted);
+}
+
+/* ===== FSI CHART CONTAINER ===== */
+.fsi-chart-container {
+    width: 100%;
+    min-height: 180px;
+    aspect-ratio: 2.5 / 1;
+}
+
+/* ===== FSI PILLAR GRID ===== */
+.pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--card-gap);
+}
+
+.pillar-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.pillar-card .pillar-name {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.pillar-card .pillar-score {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.pillar-card .pillar-weight {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+.pillar-card .pillar-contribution {
+    font-size: 0.8rem;
+    color: var(--accent);
+}
+
+.pillar-card .pillar-subtitle {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Secondary metric line — used for Apdex below session count (FSI board pattern) */
+.pillar-card .pillar-secondary {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.pillar-card.highlighted {
+    border-color: var(--fsi-elevated);
+    background: var(--yellow-dim);
+}
+
+/* ===== ETRC GRID ===== */
+.etrc-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.etrc-row {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.etrc-row[data-clickable] {
+    cursor: pointer;
+}
+
+.etrc-row[data-clickable]:hover {
+    background: var(--surface-hover);
+    border-color: var(--accent);
+}
+
+.etrc-row .etrc-sem-name {
+    flex: 1;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.etrc-row .etrc-group-name {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    flex: 1;
+}
+
+.etrc-grade-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Grade color coding applied via inline style or these classes */
+.etrc-grade-badge.grade-a { background: var(--grade-a); }
+.etrc-grade-badge.grade-b { background: var(--grade-b); }
+.etrc-grade-badge.grade-c { background: var(--grade-c); }
+.etrc-grade-badge.grade-d { background: var(--grade-d); }
+.etrc-grade-badge.grade-f { background: var(--grade-f); }
+
+.etrc-shared-indicator {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    background: rgba(108, 140, 255, 0.1);
+    border: 1px solid rgba(108, 140, 255, 0.25);
+    border-radius: 4px;
+    padding: 0.15rem 0.4rem;
+    white-space: nowrap;
+}
+
+.etrc-row .click-arrow {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-left: auto;
+}
+
+/* ===== MI SECTION ===== */
+.mi-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mi-total-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.mi-total-header .mi-count {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.mi-buckets {
+    display: flex;
+    gap: var(--card-gap);
+    flex-wrap: wrap;
+}
+
+.mi-bucket {
+    flex: 1;
+    min-width: 140px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.mi-bucket .mi-bucket-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.mi-bucket .mi-bucket-count {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Severity color coding for MI buckets */
+.mi-bucket.sev1 {
+    border-color: var(--mi-sev1);
+    background: var(--mi-sev1-dim);
+}
+.mi-bucket.sev1 .mi-bucket-label,
+.mi-bucket.sev1 .mi-bucket-count {
+    color: var(--mi-sev1);
+}
+
+.mi-bucket.sev2 {
+    border-color: var(--mi-sev2);
+    background: var(--mi-sev2-dim);
+}
+.mi-bucket.sev2 .mi-bucket-label,
+.mi-bucket.sev2 .mi-bucket-count {
+    color: var(--mi-sev2);
+}
+
+.mi-bucket.sev3 {
+    border-color: var(--mi-sev3);
+    background: var(--mi-sev3-dim);
+}
+.mi-bucket.sev3 .mi-bucket-label,
+.mi-bucket.sev3 .mi-bucket-count {
+    color: var(--mi-sev3);
+}
+
+.mi-bucket.sev4 {
+    border-color: var(--border);
+}
+.mi-bucket.sev4 .mi-bucket-label,
+.mi-bucket.sev4 .mi-bucket-count {
+    color: var(--text-muted);
+}
+
+/* MI detail list — scrollable when >10 items */
+.mi-list {
+    max-height: 480px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 0.25rem;
+}
+
+/* Custom scrollbar for MI list */
+.mi-list::-webkit-scrollbar {
+    width: 6px;
+}
+.mi-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+.mi-list::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 3px;
+}
+
+.mi-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.8rem;
+}
+
+.mi-item .mi-number {
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+a.mi-number {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a.mi-number:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.mi-item .mi-description {
+    flex: 1;
+    color: var(--text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mi-item .mi-state {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.mi-item .mi-duration {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.mi-item .mi-group {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+/* ===== CHART CONTAINERS (generic) ===== */
+.chart-container {
+    width: 100%;
+    min-height: var(--chart-min-height);
+    aspect-ratio: var(--chart-aspect-ratio);
+}
+
+/* ===== TEAM VIEW — NAVIGATION ===== */
+.team-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.sem-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sem-nav h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.sem-nav-btn {
+    font-size: 0.8rem;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    transition: background 0.15s, border-color 0.15s;
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sem-nav-btn:hover {
+    background: var(--surface-hover);
+    border-color: var(--accent);
+}
+
+.sem-groups {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* ===== TEAM VIEW — ETRC GRADE DISPLAY ===== */
+.team-etrc-grade {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+}
+
+/* ===== TEAM VIEW — COMPONENT GRID ===== */
+.component-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.component-row {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.85rem;
+}
+
+.component-row .component-name {
+    flex: 1;
+    color: var(--text);
+}
+
+.component-row .component-value {
+    font-weight: 600;
+    color: var(--text);
+}
+
+.component-row .component-weight {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    min-width: 3rem;
+    text-align: right;
+}
+
+.component-row.failing {
+    border-color: var(--grade-d);
+}
+
+.component-row.failing .component-value {
+    color: var(--grade-d);
+}
+
+/* ===== TEAM VIEW — INCIDENT LIST ===== */
+.incident-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.incident-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.8rem;
+}
+
+.incident-item .incident-number {
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+}
+
+.incident-item .incident-description {
+    flex: 1;
+    color: var(--text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.incident-item .incident-severity {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+
+.incident-item .incident-state {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.incident-item .incident-age {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+/* ===== TEAM VIEW — MTTR ===== */
+.mttr-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.mttr-value .mttr-unit {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
+/* ===== TEAM VIEW — MI EXPOSURE ===== */
+.mi-exposure {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    padding: var(--card-padding);
+}
+
+.mi-exposure .mi-exposure-header {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.75rem;
+}
+
+.mi-exposure .mi-trend-summary {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.mi-exposure .mi-week-count {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    padding: 0.25rem 0.5rem;
+    background: rgba(108, 140, 255, 0.06);
+    border-radius: 4px;
+}
+
+/* ===== SECTION ERROR & WARNING STATES ===== */
+.section-error {
+    background: var(--red-dim);
+    border: 1px solid rgba(201, 46, 46, 0.3);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    color: var(--mi-sev1);
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section-error .error-icon {
+    font-size: 1rem;
+}
+
+.section-warning {
+    background: var(--yellow-dim);
+    border: 1px solid rgba(201, 146, 46, 0.3);
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    color: var(--fsi-elevated);
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+}
+
+/* ===== HOVER TOOLTIP (for truncated descriptions) ===== */
+.hover-tooltip {
+    position: absolute;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    color: var(--text);
+    max-width: 320px;
+    z-index: 100;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== DISPLAY MODE OVERRIDES ===== */
+body.display-mode {
+    font-size: 125%;
+}
+
+body.display-mode .back-link,
+body.display-mode .sem-nav-btn,
+body.display-mode .etrc-row[data-clickable] {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: default;
+}
+
+body.display-mode .click-arrow,
+body.display-mode .hover-tooltip {
+    display: none;
+}
+
+/* Suppress hover effects in display mode */
+body.display-mode .etrc-row[data-clickable]:hover {
+    background: var(--surface);
+    border-color: var(--border);
+}
+
+body.display-mode .sem-nav-btn:hover {
+    background: transparent;
+    border-color: var(--border);
+}
+
+/* Hide navigation elements in display mode */
+body.display-mode .back-link {
+    display: none;
+}
+
+body.display-mode .sem-nav {
+    display: none;
+}
+
+/* ===== EMPTY STATE MESSAGES ===== */
+/* Used when no MIs exist, no incidents, or insufficient trend data */
+.empty-state {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+/* ===== NO HORIZONTAL OVERFLOW SAFETY ===== */
+/* Prevents horizontal scrollbar at any viewport width (Req 12.1, 12.2) */
+#app {
+    overflow-x: hidden;
+}
+
+/* ===== RESPONSIVE — 1200px BREAKPOINT ===== */
+@media (max-width: 1200px) {
+    .ops-hero-row {
+        grid-template-columns: 1fr;
+    }
+
+    .pillar-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mi-buckets {
+        flex-direction: column;
+    }
+
+    .mi-bucket {
+        min-width: unset;
+    }
+
+    .etrc-row {
+        flex-wrap: wrap;
+    }
+
+    /* Ensure tap targets meet 44x44px minimum (Req 12.3) */
+    .etrc-row[data-clickable] {
+        min-height: 44px;
+    }
+
+    .etrc-group-card {
+        min-height: 44px;
+    }
+
+    .sem-nav-btn {
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    .back-link {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+}
+
+/* ===== RESPONSIVE — 768px BREAKPOINT ===== */
+@media (max-width: 768px) {
+    .ops-header {
+        padding: 1rem 1rem 0.75rem;
+    }
+
+    .ops-section {
+        padding: 0 1rem 1rem;
+    }
+
+    .ops-hero-row {
+        padding: 0 1rem 1rem;
+    }
+
+    .pillar-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fsi-chart-container,
+    .chart-container {
+        min-height: 200px;
+        aspect-ratio: unset;
+    }
+
+    .fsi-score {
+        font-size: 2rem;
+    }
+
+    .team-etrc-grade {
+        font-size: 2.5rem;
+    }
+
+    .mi-item,
+    .incident-item {
+        flex-wrap: wrap;
+    }
+
+    .mi-item .mi-description,
+    .incident-item .incident-description {
+        flex-basis: 100%;
+        order: 2;
+    }
+
+    .team-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* ===== FSI STATUS LEGEND ===== */
+.fsi-legend { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem; }
+.fsi-legend-chip { font-size: 0.7rem; padding: 0.3rem 0.6rem; border-radius: 16px; border: 1px solid var(--border); color: var(--text-muted); white-space: nowrap; }
+.fsi-legend-chip.active { font-weight: 600; }
+.fsi-legend-chip.optimal { color: #2d8a4e; }
+.fsi-legend-chip.optimal.active { border-color: #2d8a4e; background: rgba(45, 138, 78, 0.12); }
+.fsi-legend-chip.stable { color: #5a9a3c; }
+.fsi-legend-chip.stable.active { border-color: #5a9a3c; background: rgba(90, 154, 60, 0.12); }
+.fsi-legend-chip.elevated { color: #c9922e; }
+.fsi-legend-chip.elevated.active { border-color: #c9922e; background: rgba(201, 146, 46, 0.12); }
+.fsi-legend-chip.severe { color: #c95e2e; }
+.fsi-legend-chip.severe.active { border-color: #c95e2e; background: rgba(201, 94, 46, 0.12); }
+.fsi-legend-chip.systemic { color: #c92e2e; }
+.fsi-legend-chip.systemic.active { border-color: #c92e2e; background: rgba(201, 46, 46, 0.12); }
+
+/* ===== FSI EXPLANATION ===== */
+.fsi-explanation { color: var(--text-muted); font-size: 0.8rem; margin-top: 0.5rem; margin-bottom: 0; }
+
+/* ===== ETRC GROUP GRID ===== */
+.etrc-group-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--card-gap); }
+.etrc-group-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--card-radius); padding: var(--card-padding); display: flex; align-items: center; gap: 1rem; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
+.etrc-group-card:hover { border-color: var(--accent); background: var(--surface-hover); }
+.etrc-group-grade { font-size: 2rem; font-weight: 700; min-width: 2.5rem; text-align: center; }
+.etrc-group-info { display: flex; flex-direction: column; gap: 0.2rem; }
+.etrc-group-name { font-size: 0.9rem; font-weight: 500; color: var(--text); }
+.etrc-group-score { font-size: 0.75rem; color: var(--text-muted); }
+.etrc-group-sems { font-size: 0.7rem; color: var(--text-muted); font-style: italic; }
+
+/* ===== AI INSIGHTS CARD ===== */
+.insights-card {
+    background: linear-gradient(135deg, rgba(108, 140, 255, 0.12) 0%, rgba(139, 92, 246, 0.06) 100%);
+    border: 2px solid rgba(108, 140, 255, 0.4);
+    border-radius: 12px;
+    padding: 1.75rem;
+    position: relative;
+    box-shadow: 0 4px 24px rgba(108, 140, 255, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+.insights-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #6c8cff, #8b5cf6, #6c8cff);
+    border-radius: 12px 12px 0 0;
+}
+.insights-heading {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #e8e8f0;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.insights-heading::before {
+    content: '◆';
+    color: var(--accent);
+    font-size: 0.7rem;
+}
+.insights-body { font-size: 0.9rem; color: #9898b0; line-height: 1.7; }
+.insights-body p { margin-bottom: 1rem; }
+.insights-body p:last-child { margin-bottom: 0; }
+.insights-body strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+.insights-meta {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(108, 140, 255, 0.15);
+    display: block;
+}
+
+/* ===== RESPONSIVE: ETRC GROUP GRID ===== */
+@media (max-width: 1200px) { .etrc-group-grid { grid-template-columns: 1fr; } }
+
+/* ===== DISPLAY MODE: ETRC GROUP CARDS ===== */
+body.display-mode .etrc-group-card { pointer-events: none; cursor: default; }
+body.display-mode .etrc-group-card:hover { border-color: var(--border); background: var(--surface); }

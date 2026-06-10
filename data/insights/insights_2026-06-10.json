@@ -1,0 +1,24 @@
+{
+  "source": "insights",
+  "collected_at": "2026-06-09T17:12:05.143525+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-06-09T17:12:05.143525+00:00",
+      "generated_at": "2026-06-09T17:12:24.038844+00:00",
+      "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "input_sources": [
+        "fsi",
+        "etrc",
+        "incidents"
+      ]
+    },
+    "vp_summary": "FSI holds at 19 (Stable) for the second consecutive week. Availability, sessions, and performance remain optimal. The incidents pillar is the sole driver of the composite score \u2014 contributing 16.4 points at a score of 82 (Systemic status). Major incident volume tripled week-over-week: 3 MIs this week vs. 1 last week, all concentrated in Enrollment Support & Ops (2 MIs) and Financial Enablement (1 MI). Regular incident volume dropped sharply \u2014 12 this week vs. 29 last week \u2014 but the MI spike is what moved the needle on FSI.\n\nETRC tells a different story. Enrollment Support & Ops remains at F (0.4/4.0) \u2014 155 Major Days Breached (threshold: 25), 1800 Minor Days Breached (threshold: 250), and 50% MI Error Budget consumed (threshold: 15%). Post sits at C (2.4/4.0), driven entirely by 120 Major Days Breached \u2014 5x the threshold. Pre holds B (2.8/4.0) but carries 1575 Minor Days Breached, also 6x threshold. Financial Enablement is the only group at A (3.6/4.0), though MI Error Budget at 25% keeps it from a perfect score. No movement week-over-week across any group \u2014 scores, grades, and breach counts are identical.\n\nThe divergence matters. FSI at 19 (Stable) reflects a clean current week for student-facing failures. ETRC at F and C reflects unresolved SLA debt \u2014 cumulative breach backlog from prior weeks that hasn't been worked down. Enrollment Support & Ops and Post are carrying 155 and 120 Major Days Breached respectively, meaning they have no capacity to absorb the next incident when it arrives. The 3 MIs this week prove the point \u2014 Enrollment Support & Ops took 2 of them, and the backlog didn't move. The risk isn't this week's FSI. The risk is that the next spike will push FSI into Elevated or Severe because there's no margin left.",
+    "group_insights": {
+      "cd8818701b80c4907f97337bcd4bcb35": "Enrollment Support & Ops remains at F (0.4/4.0) with no change week-over-week. 155 Major Days Breached and 1800 Minor Days Breached \u2014 both multiples above threshold \u2014 and absorbed 2 of the 3 MIs this week, proving the backlog isn't being worked down.",
+      "c0de17e81b8c84907f97337bcd4bcbad": "Financial Enablement holds at A (3.6/4.0), the only group meeting thresholds on Major and Minor Days Breached. MI Error Budget at 25% (threshold: 15%) is the only miss, and 1 MI this week (MI0007330, still open in Investigating state) will likely push that higher next week.",
+      "9c1c30801bc404907f97337bcd4bcb74": "Pre holds at B (2.8/4.0) with no movement. 1575 Minor Days Breached \u2014 6x threshold \u2014 is the primary drag, though Major Days Breached at 30 (just above the 25 threshold) and perfect MI Error Budget at 0% keep the grade from dropping to C.",
+      "58d26bec1b8c84907f97337bcd4bcb44": "Post sits at C (2.4/4.0), unchanged week-over-week. 120 Major Days Breached \u2014 5x the threshold \u2014 is the sole driver; Minor Days Breached and MI Error Budget are both passing at A."
+    }
+  },
+  "errors": []
+}

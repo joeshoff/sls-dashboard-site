@@ -1,0 +1,424 @@
+/* components.css — Shared card, indicator, and metric component styles
+ * Used across all dashboard pages (landing, operations, delivery).
+ * Assumes variables.css is loaded first.
+ *
+ * Card styling: 1px solid var(--border), 8-10px radius, var(--surface) bg,
+ * 1.25-1.5rem padding, 1rem gap between siblings (Req 11.4).
+ */
+
+/* ===== BASE CARD ===== */
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.card + .card {
+    margin-top: 1rem;
+}
+
+.card:hover {
+    background: var(--surface-hover);
+}
+
+/* Card that is clickable — shows pointer and border accent on hover */
+.card[data-clickable] {
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.card[data-clickable]:hover {
+    border-color: var(--accent);
+}
+
+/* ===== GRADE BADGES ===== */
+/* Large grade badge (48x48, used in card headers) */
+.grade-badge {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+}
+
+/* Extra-large grade badge (72x72, used in detail views) */
+.grade-badge-lg {
+    width: 72px;
+    height: 72px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+}
+
+/* Grade color classes — apply to grade-badge or any element needing grade bg */
+.grade-a { background: var(--grade-a); }
+.grade-b { background: var(--grade-b); }
+.grade-c { background: var(--grade-c); }
+.grade-d { background: var(--grade-d); }
+.grade-f { background: var(--grade-f); }
+
+/* Grade text color classes — for inline grade references */
+.grade-text-a { color: var(--grade-a); }
+.grade-text-b { color: var(--grade-b); }
+.grade-text-c { color: var(--grade-c); }
+.grade-text-d { color: var(--grade-d); }
+.grade-text-f { color: var(--grade-f); }
+
+/* ===== STATUS INDICATORS ===== */
+.status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Status badge — pill-shaped with dim background */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.status-badge-green {
+    background: var(--green-dim);
+    color: var(--grade-a);
+}
+
+.status-badge-yellow {
+    background: var(--yellow-dim);
+    color: var(--grade-c);
+}
+
+.status-badge-red {
+    background: var(--red-dim);
+    color: var(--grade-f);
+}
+
+/* ===== METRIC DISPLAYS ===== */
+/* Large metric value (headline numbers) */
+.metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Metric label (small caps above or below a value) */
+.metric-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+}
+
+/* Trend indicator — shows direction + numeric diff */
+.trend-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.trend-indicator.improving { color: var(--grade-a); }
+.trend-indicator.worsening { color: var(--grade-f); }
+.trend-indicator.flat { color: var(--text-muted); }
+
+/* ===== SECTION ERROR / WARNING STATES ===== */
+.section-error {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section-error .error-icon {
+    font-size: 1.1rem;
+}
+
+.section-warning {
+    background: var(--yellow-dim);
+    border: 1px solid rgba(201, 146, 46, 0.3);
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    color: var(--grade-c);
+    margin-bottom: 0.75rem;
+}
+
+/* ===== CHART CONTAINERS ===== */
+.chart-container {
+    width: 100%;
+    min-height: 240px;
+    position: relative;
+}
+
+/* ===== NAVIGATION ELEMENTS ===== */
+/* Back link — returns to parent view */
+.back-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: color 0.15s;
+}
+
+.back-link:hover {
+    color: var(--text);
+}
+
+/* Navigation button (prev/next SEM) */
+.nav-btn {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    transition: border-color 0.15s, color 0.15s;
+}
+
+.nav-btn:hover {
+    border-color: var(--accent);
+    color: var(--text);
+}
+
+/* ===== TIMESTAMP / FRESHNESS ===== */
+.last-updated {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.last-updated.stale {
+    color: var(--grade-c);
+}
+
+/* ===== SCROLLABLE CONTAINERS ===== */
+/* For MI lists exceeding 10 items (Req 5.7) */
+.scrollable-list {
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+}
+
+.scrollable-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 3px;
+}
+
+/* ===== TAP TARGETS ===== */
+/* Ensure interactive elements meet 44x44px minimum between 768-1200px (Req 12.3) */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .card[data-clickable],
+    .nav-btn,
+    .back-link {
+        min-height: 44px;
+        min-width: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+}
+
+/* ===== QUADRANT CARD ===== */
+/* Base card class for all quadrant modules — grid cells and center overlay.
+ * Left border accent is driven by data-attention-level attribute. */
+.quadrant-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+    border-left: 4px solid var(--border);
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: background 0.15s, border-color 0.15s;
+    overflow: hidden;
+}
+
+/* ===== QUADRANT CARD TITLE ===== */
+/* Module title injected by shell.js into the slot container (above the card).
+ * Lives outside .quadrant-card so it's never hidden by the sentiment overlay.
+ * Compact uppercase treatment — present but not dominant.
+ * position:absolute at top of the slot container. The card itself gets a
+ * small top-margin via .quadrant-card to leave room.
+ *
+ * Right-column cards (finance, security) get right-alignment via the
+ * slot-level rule below so titles hug the outer edge of the grid,
+ * away from the center overlay. */
+.quadrant-card-title {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    flex-shrink: 0;
+    z-index: 11;
+}
+
+/* Right-column slots: align title to right edge (away from center overlay) */
+#quadrant-finance .quadrant-card-title,
+#quadrant-security .quadrant-card-title {
+    text-align: right;
+}
+
+/* ===== ATTENTION-LEVEL BORDER ACCENTS ===== */
+/* Left-border color signals operational status at a glance.
+ * Green = healthy, Yellow = degraded, Red = failing. */
+.quadrant-card[data-attention-level="green"] {
+    border-left-color: var(--grade-a);
+}
+
+.quadrant-card[data-attention-level="yellow"] {
+    border-left-color: var(--grade-c);
+}
+
+.quadrant-card[data-attention-level="red"] {
+    border-left-color: var(--grade-f);
+}
+
+/* ===== HOVER / FOCUS-VISIBLE STATES ===== */
+/* Hover lifts background. Focus-visible uses a 2px outline with
+ * 3:1 contrast ratio against --bg (#1a1a2e). The accent color
+ * (#6c8cff) provides ~4.5:1 against dark backgrounds. */
+.quadrant-card:hover {
+    background: var(--surface-hover);
+}
+
+.quadrant-card:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+/* ===== CLICKABLE VARIANT ===== */
+/* Modules with a non-null detailUrl get this attribute.
+ * Pointer cursor + a visible arrow affordance signaling navigation. */
+.quadrant-card[data-clickable] {
+    cursor: pointer;
+}
+
+.quadrant-card[data-clickable]:hover {
+    border-color: var(--accent);
+}
+
+/* Click-arrow pseudo — disabled, replaced by .card-nav-arrow DOM element */
+.quadrant-card[data-clickable]::after {
+    content: none;
+}
+
+/* DOM-appended nav link — top-right of card, clear of the title element */
+.card-nav-arrow {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    transition: color 0.15s;
+}
+
+.quadrant-card[data-clickable]:hover .card-nav-arrow {
+    color: var(--accent);
+}
+
+/* Hover accent handled by .card-nav-arrow rule above */
+
+/* ===== NAVIGATION ERROR INDICATOR ===== */
+/* Shown inline on a card when the navigation target returns 4xx/5xx.
+ * Persists for ≥ 3 seconds per Req 8.4. */
+.nav-error-indicator {
+    position: absolute;
+    bottom: 0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--red-dim);
+    color: var(--grade-f);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    z-index: 5;
+    animation: nav-error-fade-in 0.15s ease;
+}
+
+@keyframes nav-error-fade-in {
+    from { opacity: 0; transform: translateX(-50%) translateY(4px); }
+    to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* ===== TEST CARD PLACEHOLDER ===== */
+/* Broadcast test pattern background using SVG image asset.
+ * Used for placeholder modules, load failures, and timeouts.
+ * Image scales to fill the card at any viewport width. */
+.quadrant-test-card {
+    position: relative;
+    overflow: hidden;
+    background: var(--surface);
+}
+
+.test-card-bars {
+    position: absolute;
+    inset: 0;
+    opacity: 0.25;
+    background: url('../img/test-pattern.svg') center / cover no-repeat;
+}
+
+.test-card-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 0.5rem;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.test-card-icon {
+    font-size: 2rem;
+}
+
+.test-card-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.test-card-status {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+}

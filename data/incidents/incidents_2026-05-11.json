@@ -1,0 +1,69 @@
+{
+  "source": "incidents",
+  "collected_at": "2026-05-17T10:00:00+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-05-17T10:00:00+00:00",
+      "week_start": "2026-05-05 00:00:00",
+      "week_end": "2026-05-11 23:59:59",
+      "regular_incident_count": 28,
+      "major_incident_count": 2,
+      "org_ids_queried": ["EDS05", "EDS04", "ENG21", "EDS24", "EDS01", "EDS02", "EDS15", "EDS07"],
+      "etrc_groups_queried": ["cd8818701b80c4907f97337bcd4bcb35", "c0de17e81b8c84907f97337bcd4bcbad", "9c1c30801bc404907f97337bcd4bcb74", "58d26bec1b8c84907f97337bcd4bcb44"]
+    },
+    "regular_incidents": [
+      { "number": "INC2901101", "short_description": "Self Service Enrollment - Application form not saving progress", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/05/2026 08:30:12", "resolved_at": "05/06/2026 14:15:00" },
+      { "number": "INC2901215", "short_description": "FAFSA Error Message - Unable to link student account", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/05/2026 10:45:33", "resolved_at": "05/06/2026 09:30:00" },
+      { "number": "INC2901328", "short_description": "SSE Portal - Enrollment checklist items not marking complete", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/05/2026 13:01:47", "resolved_at": "05/07/2026 10:00:00" },
+      { "number": "INC2901441", "short_description": "Financial Aid Tab - Scholarship status showing incorrect amount", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/05/2026 15:17:01", "resolved_at": "05/06/2026 11:45:00" },
+      { "number": "INC2901554", "short_description": "Salesforce - Enrollment counselor notes not syncing to student record", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/05/2026 17:32:15", "resolved_at": "05/07/2026 15:30:00" },
+      { "number": "INC2901667", "short_description": "Student Portal - Degree plan not loading for transfer students", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/06/2026 07:47:29", "resolved_at": "05/07/2026 08:20:00" },
+      { "number": "INC2901780", "short_description": "FAFSA Error Message - Verification step timing out", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/06/2026 10:03:43", "resolved_at": "05/06/2026 16:00:00" },
+      { "number": "INC2901893", "short_description": "Self Service Enrollment - Incorrect program prerequisites displayed", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/06/2026 12:18:57", "resolved_at": "05/08/2026 09:45:00" },
+      { "number": "INC2902006", "short_description": "Application for Admissions - State residency verification failing", "priority": "P3 - Medium", "priority_value": "3", "state": "In Progress", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/06/2026 14:34:11", "resolved_at": null },
+      { "number": "INC2902119", "short_description": "Financial Hub - Tuition calculator showing outdated rates", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/06/2026 16:49:25", "resolved_at": "05/07/2026 13:00:00" },
+      { "number": "INC2902232", "short_description": "SSE Enrollment - Email confirmation not sent after application submit", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/07/2026 08:04:39", "resolved_at": "05/08/2026 11:30:00" },
+      { "number": "INC2902345", "short_description": "Salesforce - Student communication history missing recent entries", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/07/2026 10:20:53", "resolved_at": "05/08/2026 14:15:00" },
+      { "number": "INC2902458", "short_description": "Financial Aid - Loan entrance counseling link broken", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/07/2026 12:36:07", "resolved_at": "05/08/2026 09:00:00" },
+      { "number": "INC2902571", "short_description": "Self Service Enrollment - Photo upload failing for ID verification", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/07/2026 14:51:21", "resolved_at": "05/09/2026 10:30:00" },
+      { "number": "INC2902684", "short_description": "SSE Portal - Accessibility issue with screen reader on enrollment form", "priority": "P3 - Medium", "priority_value": "3", "state": "In Progress", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/07/2026 17:06:35", "resolved_at": null },
+      { "number": "INC2902797", "short_description": "FAFSA Error Message - Parent information section not accepting input", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/08/2026 08:21:49", "resolved_at": "05/08/2026 15:45:00" },
+      { "number": "INC2902910", "short_description": "Self Service Enrollment - Commit to Start date showing wrong month", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/08/2026 10:37:03", "resolved_at": "05/09/2026 14:00:00" },
+      { "number": "INC2903023", "short_description": "Student Portal - Enrollment status badge not updating after approval", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/08/2026 12:52:17", "resolved_at": "05/09/2026 11:20:00" },
+      { "number": "INC2903136", "short_description": "Financial Hub - Payment receipt download returning empty PDF", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/08/2026 15:07:31", "resolved_at": "05/09/2026 09:00:00" },
+      { "number": "INC2903249", "short_description": "SSE Enrollment - Transfer credit evaluation page timeout", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/08/2026 17:22:45", "resolved_at": "05/10/2026 10:15:00" },
+      { "number": "INC2903362", "short_description": "Salesforce - Enrollment pipeline report showing stale data", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/09/2026 08:37:59", "resolved_at": "05/10/2026 08:30:00" },
+      { "number": "INC2903475", "short_description": "Financial Aid - Award letter not generating for approved students", "priority": "P3 - Medium", "priority_value": "3", "state": "In Progress", "assignment_group": "Financial Enablement", "opened_at": "05/09/2026 10:53:13", "resolved_at": null },
+      { "number": "INC2903588", "short_description": "Self Service Enrollment - Duplicate application created on refresh", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/09/2026 13:08:27", "resolved_at": "05/10/2026 14:45:00" },
+      { "number": "INC2903701", "short_description": "SSE Portal - Program comparison tool not loading data", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/09/2026 15:23:41", "resolved_at": "05/11/2026 09:00:00" },
+      { "number": "INC2903814", "short_description": "FAFSA Error Message - SAR data import failing", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Financial Enablement", "opened_at": "05/09/2026 17:38:55", "resolved_at": "05/10/2026 11:30:00" },
+      { "number": "INC2903927", "short_description": "Self Service Enrollment - Enrollment agreement signature pad not working on iPad", "priority": "P4 - Low", "priority_value": "4", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/10/2026 08:54:09", "resolved_at": "05/11/2026 13:00:00" },
+      { "number": "INC2904040", "short_description": "Financial Aid Tab - Estimated cost breakdown showing $0", "priority": "P4 - Low", "priority_value": "4", "state": "New", "assignment_group": "Financial Enablement", "opened_at": "05/10/2026 11:09:23", "resolved_at": null },
+      { "number": "INC2904153", "short_description": "SSE Enrollment - Readiness assessment quiz not submitting answers", "priority": "P3 - Medium", "priority_value": "3", "state": "Resolved", "assignment_group": "Enrollment Support & Ops", "opened_at": "05/10/2026 13:24:37", "resolved_at": "05/11/2026 15:30:00" }
+    ],
+    "major_incidents": [
+      { "number": "MI0007288", "short_description": "Self Service Enrollment - Complete outage of Commit to Start for all programs", "priority": "Sev 2", "state": "Closed", "assignment_group": "Enrollment Support & Ops", "group_sys_id": "cd8818701b80c4907f97337bcd4bcb35", "opened_at": "05/06/2026 11:15:22", "resolved_at": "05/06/2026 18:45:00" },
+      { "number": "MI0007291", "short_description": "OnBase - Document processing queue backed up affecting transcript evaluations", "priority": "Sev 3", "state": "Closed", "assignment_group": "Post", "group_sys_id": "58d26bec1b8c84907f97337bcd4bcb44", "opened_at": "05/08/2026 14:30:18", "resolved_at": "05/09/2026 10:00:00" }
+    ],
+    "summary": {
+      "week_start": "2026-05-05 00:00:00",
+      "week_end": "2026-05-11 23:59:59",
+      "regular_incident_count": 28,
+      "major_incident_count": 2,
+      "regular_by_severity": {
+        "1": 0,
+        "2": 0,
+        "3": 10,
+        "4": 18
+      },
+      "mi_by_severity": {
+        "Sev 1": 0,
+        "Sev 2": 1,
+        "Sev 3": 1,
+        "Sev 4": 0
+      },
+      "mttr_hours": null
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,40 @@
+{
+  "sems": {
+    "Blake": {
+      "jiraTeamIds": ["ENG25", "ENG29"],
+      "etrcTeams": ["cd8818701b80c4907f97337bcd4bcb35"],
+      "orgIds": ["EDS05"],
+      "email": "blake.wilcox@wgu.edu"
+    },
+    "Rebecca": {
+      "jiraTeamIds": ["ENG26", "ENG30"],
+      "etrcTeams": ["cd8818701b80c4907f97337bcd4bcb35"],
+      "orgIds": ["EDS04"],
+      "email": "rebecca.ovall@wgu.edu"
+    },
+    "Anand": {
+      "jiraTeamIds": ["ENG21", "ENG23"],
+      "etrcTeams": ["c0de17e81b8c84907f97337bcd4bcbad"],
+      "orgIds": ["ENG21", "EDS24"],
+      "email": "anand.wuppuluri@wgu.edu"
+    },
+    "Vaibhav": {
+      "jiraTeamIds": ["ENG24", "ENG27"],
+      "etrcTeams": ["9c1c30801bc404907f97337bcd4bcb74"],
+      "orgIds": ["EDS01", "EDS02"],
+      "email": "vaibhav.mahant@wgu.edu"
+    },
+    "Temi": {
+      "jiraTeamIds": ["ENG22", "ENG46"],
+      "etrcTeams": ["9c1c30801bc404907f97337bcd4bcb74", "58d26bec1b8c84907f97337bcd4bcb44"],
+      "orgIds": ["EDS15"],
+      "email": "temi.aina@wgu.edu"
+    },
+    "John": {
+      "jiraTeamIds": ["ENG48"],
+      "etrcTeams": ["cd8818701b80c4907f97337bcd4bcb35"],
+      "orgIds": ["EDS07"],
+      "email": "john.quinley@wgu.edu"
+    }
+  }
+}

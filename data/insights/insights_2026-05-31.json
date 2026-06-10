@@ -1,0 +1,24 @@
+{
+  "source": "insights",
+  "collected_at": "2026-06-01T03:49:55.185455+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-06-01T03:49:55.185455+00:00",
+      "generated_at": "2026-06-01T03:50:11.055401+00:00",
+      "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "input_sources": [
+        "fsi",
+        "etrc",
+        "incidents"
+      ]
+    },
+    "vp_summary": "FSI dropped from 16 to 5 (optimal) \u2014 incidents pillar recovered from 50 to 6 after last week's Sev 2 MI cleared. Availability held at 99.75%, sessions stable at 13 (apdex 0.78), performance at 10. Four Sev 3 MIs this week vs. three total MIs last week, but all Sev 3s carry lower scoring weight \u2014 the absence of Sev 1-2 events is what brought the composite down.\n\nETRC tells a different story. Enrollment Support & Ops remains at D (1.2/4.0) with 130 Major Days Breached (threshold 25) and 1,850 Minor Days Breached (threshold 250) \u2014 no movement from last week's 140 and 1,900. Post sits at C (2.4/4.0) with 120 Major Days Breached, down marginally from 125. Pre holds B (2.8/4.0) but carries 1,575 Minor Days Breached (threshold 250). Financial Enablement is the only A at 3.6/4.0. All four groups are burning MI Error Budget at 25 days (threshold 15) except Pre and Post, which zeroed out.\n\nThe divergence is structural, not contradictory. FSI measures student-facing failures this week \u2014 a clean snapshot. ETRC measures cumulative SLA debt from prior weeks that hasn't been worked down. Enrollment Support & Ops has been sitting on 130+ Major Days Breached for two weeks running, which means the backlog isn't moving and the team has no capacity buffer when the next incident lands. The FSI score reflects current-week stability; the ETRC score reflects the team's inability to absorb what's coming.",
+    "group_insights": {
+      "cd8818701b80c4907f97337bcd4bcb35": "Enrollment Support & Ops holds at D (1.2/4.0) with 130 Major Days Breached and 1,850 Minor Days Breached \u2014 no progress from last week. Three of this week's four MIs landed here, and the backlog isn't moving.",
+      "c0de17e81b8c84907f97337bcd4bcbad": "Financial Enablement remains at A (3.6/4.0) with 15 Major Days Breached and 100 Minor Days Breached, both under threshold. MI Error Budget at 25 days is the only non-passing metric.",
+      "9c1c30801bc404907f97337bcd4bcb74": "Pre holds B (2.8/4.0) with 30 Major Days Breached (down from 32) and 1,575 Minor Days Breached (down from 1,650). Minor backlog is still 6x threshold \u2014 marginal improvement, not resolution.",
+      "58d26bec1b8c84907f97337bcd4bcb44": "Post sits at C (2.4/4.0) with 120 Major Days Breached (down from 125) \u2014 still 5x threshold. Minor Days Breached at 125 is under threshold, but the Major backlog defines the grade."
+    }
+  },
+  "errors": []
+}

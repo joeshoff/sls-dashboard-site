@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <!-- Background: dark grey grid -->
+  <rect width="800" height="500" fill="#2a2a2a"/>
+  
+  <!-- Grid lines -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#444" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  
+  <!-- Outer checkerboard border — top -->
+  <rect x="0" y="0" width="40" height="40" fill="#000"/>
+  <rect x="40" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="80" y="0" width="40" height="40" fill="#000"/>
+  <rect x="120" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="160" y="0" width="40" height="40" fill="#000"/>
+  <rect x="200" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="240" y="0" width="40" height="40" fill="#000"/>
+  <rect x="280" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="320" y="0" width="40" height="40" fill="#000"/>
+  <rect x="360" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="400" y="0" width="40" height="40" fill="#000"/>
+  <rect x="440" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="480" y="0" width="40" height="40" fill="#000"/>
+  <rect x="520" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="560" y="0" width="40" height="40" fill="#000"/>
+  <rect x="600" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="640" y="0" width="40" height="40" fill="#000"/>
+  <rect x="680" y="0" width="40" height="40" fill="#fff"/>
+  <rect x="720" y="0" width="40" height="40" fill="#000"/>
+  <rect x="760" y="0" width="40" height="40" fill="#fff"/>
+  
+  <!-- Outer checkerboard border — bottom -->
+  <rect x="0" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="40" y="460" width="40" height="40" fill="#000"/>
+  <rect x="80" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="120" y="460" width="40" height="40" fill="#000"/>
+  <rect x="160" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="200" y="460" width="40" height="40" fill="#000"/>
+  <rect x="240" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="280" y="460" width="40" height="40" fill="#000"/>
+  <rect x="320" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="360" y="460" width="40" height="40" fill="#000"/>
+  <rect x="400" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="440" y="460" width="40" height="40" fill="#000"/>
+  <rect x="480" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="520" y="460" width="40" height="40" fill="#000"/>
+  <rect x="560" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="600" y="460" width="40" height="40" fill="#000"/>
+  <rect x="640" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="680" y="460" width="40" height="40" fill="#000"/>
+  <rect x="720" y="460" width="40" height="40" fill="#fff"/>
+  <rect x="760" y="460" width="40" height="40" fill="#000"/>
+  
+  <!-- Left black bar -->
+  <rect x="0" y="40" width="60" height="420" fill="#000"/>
+  <!-- Right black bar -->
+  <rect x="740" y="40" width="60" height="420" fill="#000"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="250" r="160" fill="none" stroke="#ccc" stroke-width="2"/>
+  
+  <!-- Corner circles with barcode-like marks -->
+  <circle cx="120" cy="120" r="50" fill="#fff"/>
+  <line x1="100" y1="110" x2="140" y2="110" stroke="#000" stroke-width="3"/>
+  <line x1="100" y1="120" x2="140" y2="120" stroke="#000" stroke-width="2"/>
+  <line x1="100" y1="128" x2="140" y2="128" stroke="#000" stroke-width="3"/>
+  
+  <circle cx="680" cy="120" r="50" fill="#fff"/>
+  <line x1="660" y1="110" x2="700" y2="110" stroke="#000" stroke-width="3"/>
+  <line x1="660" y1="120" x2="700" y2="120" stroke="#000" stroke-width="2"/>
+  <line x1="660" y1="128" x2="700" y2="128" stroke="#000" stroke-width="3"/>
+  
+  <circle cx="120" cy="380" r="50" fill="#fff"/>
+  <line x1="100" y1="370" x2="140" y2="370" stroke="#000" stroke-width="3"/>
+  <line x1="100" y1="380" x2="140" y2="380" stroke="#000" stroke-width="2"/>
+  <line x1="100" y1="388" x2="140" y2="388" stroke="#000" stroke-width="3"/>
+  
+  <circle cx="680" cy="380" r="50" fill="#fff"/>
+  <line x1="660" y1="370" x2="700" y2="370" stroke="#000" stroke-width="3"/>
+  <line x1="660" y1="380" x2="700" y2="380" stroke="#000" stroke-width="2"/>
+  <line x1="660" y1="388" x2="700" y2="388" stroke="#000" stroke-width="3"/>
+  
+  <!-- Color bars — middle band -->
+  <rect x="200" y="280" width="60" height="40" fill="#ffff00"/>
+  <rect x="260" y="280" width="60" height="40" fill="#00ffff"/>
+  <rect x="320" y="280" width="60" height="40" fill="#00ff00"/>
+  <rect x="380" y="280" width="60" height="40" fill="#ff00ff"/>
+  <rect x="440" y="280" width="60" height="40" fill="#ff0000"/>
+  <rect x="500" y="280" width="60" height="40" fill="#0000ff"/>
+  
+  <!-- Small color bar row above -->
+  <rect x="240" y="220" width="20" height="12" fill="#ff0000"/>
+  <rect x="265" y="220" width="20" height="12" fill="#00ff00"/>
+  <rect x="290" y="220" width="20" height="12" fill="#0000ff"/>
+  <rect x="315" y="220" width="20" height="12" fill="#ffff00"/>
+  <rect x="340" y="220" width="20" height="12" fill="#ff00ff"/>
+  <rect x="365" y="220" width="20" height="12" fill="#00ffff"/>
+  <rect x="390" y="220" width="20" height="12" fill="#ff0000"/>
+  <rect x="415" y="220" width="20" height="12" fill="#00ff00"/>
+  <rect x="440" y="220" width="20" height="12" fill="#0000ff"/>
+  <rect x="465" y="220" width="20" height="12" fill="#ffff00"/>
+  <rect x="490" y="220" width="20" height="12" fill="#ff00ff"/>
+  <rect x="515" y="220" width="20" height="12" fill="#00ffff"/>
+  
+  <!-- Grayscale gradient band -->
+  <rect x="200" y="190" width="400" height="20" fill="url(#grayGrad)"/>
+  <defs>
+    <linearGradient id="grayGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Frequency ruler ticks at bottom of circle -->
+  <line x1="300" y1="340" x2="300" y2="360" stroke="#000" stroke-width="1"/>
+  <line x1="340" y1="340" x2="340" y2="360" stroke="#000" stroke-width="1"/>
+  <line x1="380" y1="340" x2="380" y2="360" stroke="#000" stroke-width="1"/>
+  <line x1="400" y1="335" x2="400" y2="365" stroke="#000" stroke-width="2"/>
+  <line x1="420" y1="340" x2="420" y2="360" stroke="#000" stroke-width="1"/>
+  <line x1="460" y1="340" x2="460" y2="360" stroke="#000" stroke-width="1"/>
+  <line x1="500" y1="340" x2="500" y2="360" stroke="#000" stroke-width="1"/>
+</svg>

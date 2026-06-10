@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLS Operations — Dashboard</title>
+
+    <!-- Shared CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/display-mode.css">
+    <link rel="stylesheet" href="css/operations.css?v=8">
+
+    <!-- ECharts CDN (pinned) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script type="module">
+        import { init } from './js/operations-router.js?v=6';
+        init();
+    </script>
+</body>
+</html>

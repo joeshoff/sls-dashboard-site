@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+    Dashboard Shell — SLS Executive Dashboard
+    ═══════════════════════════════════════════
+    This file is shared infrastructure. Changes require 2-approver review.
+
+    Structure:
+      • Header with title, subtitle, and last-updated timestamp
+      • 2×2 CSS grid with four slot containers (delivery, operations, security, finance)
+      • Center overlay slot (sentiment) positioned at grid intersection
+      • Module loader script (shell.js) — dynamically loads quadrant modules
+
+    This shell contains ZERO quadrant-specific markup, styles, or logic.
+    Each quadrant module renders into its slot via the contract defined in the design doc.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLS Executive Dashboard</title>
+
+    <!-- Shared CSS — load order matters: tokens → layout → components -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <!-- Header bar -->
+    <header class="dashboard-header">
+        <div class="dashboard-header-title">
+            <h1>SLS Executive Dashboard</h1>
+            <p class="subtitle">Student Lifecycle Services — Organizational Health</p>
+        </div>
+        <time id="last-updated" class="last-updated" datetime="">Last updated: —</time>
+    </header>
+
+    <!-- Dashboard layout: grid + center overlay -->
+    <main class="dashboard-container">
+        <!-- 2×2 quadrant grid — four organizational perspectives.
+             Order matches prototype: Delivery/Finance top, Operations/Security bottom.
+             Sentiment is last in DOM order but absolutely positioned at
+             the grid intersection — doesn't participate in grid flow. -->
+        <div class="quadrant-grid">
+            <div id="quadrant-delivery"></div>
+            <div id="quadrant-finance"></div>
+            <div id="quadrant-operations"></div>
+            <div id="quadrant-security"></div>
+            <div id="quadrant-sentiment"></div>
+        </div>
+    </main>
+
+    <!-- Module loader — orchestrates dynamic import of quadrant modules -->
+    <script type="module">
+        import { initShell } from './js/shell.js';
+        document.addEventListener('DOMContentLoaded', () => {
+            initShell();
+        });
+    </script>
+</body>
+</html>

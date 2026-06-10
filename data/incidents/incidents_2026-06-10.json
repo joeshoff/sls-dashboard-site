@@ -1,0 +1,1063 @@
+{
+  "source": "incidents",
+  "collected_at": "2026-06-09T17:04:57.104607+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-06-09T17:04:57.104607+00:00",
+      "week_start": "2026-06-01 00:00:00",
+      "week_end": "2026-06-07 23:59:59",
+      "regular_incident_count": 98,
+      "major_incident_count": 3,
+      "org_ids_queried": [
+        "EDS05",
+        "EDS04",
+        "ENG21",
+        "EDS24",
+        "EDS01",
+        "EDS02",
+        "EDS15",
+        "EDS07"
+      ],
+      "etrc_groups_queried": [
+        "cd8818701b80c4907f97337bcd4bcb35",
+        "c0de17e81b8c84907f97337bcd4bcbad",
+        "9c1c30801bc404907f97337bcd4bcb74",
+        "58d26bec1b8c84907f97337bcd4bcb44"
+      ]
+    },
+    "regular_incidents": [
+      {
+        "number": "INC2926822",
+        "short_description": "Self Service Enrollment - Duplicate Account Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 11:53:01",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2930250",
+        "short_description": "Enrollment portal - login issue",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/06/2026 14:22:56",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923234",
+        "short_description": "Duplicate accounts - Application",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 10:33:56",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925948",
+        "short_description": "Enrollment Portal - Blank Screen On Log In",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 16:54:16",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928818",
+        "short_description": "Enrollment - Student is having issues with their application",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 17:45:22",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926844",
+        "short_description": "Self Service Enrollment - Duplicate Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 12:01:46",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925321",
+        "short_description": "Self Service Enrollment - Duplicate Account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 11:57:57",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927594",
+        "short_description": "Unable to log-in to my account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 18:32:13",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923872",
+        "short_description": "SSE Enrollment Portal - Incorrect name appears",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 14:21:51",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925331",
+        "short_description": "Self Service Enrollment - Sign in",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 12:02:33",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925541",
+        "short_description": "Self Service Enrollment - Duplicate account error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 13:34:50",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926466",
+        "short_description": "Self Service Enrollment - Blank page",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 09:12:39",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924897",
+        "short_description": "Universal Enrollment Support Request: Other",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 08:59:12",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924047",
+        "short_description": "Caseload - student will not come up",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 15:33:00",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2929231",
+        "short_description": "Student Portal - Financial Ad Tab",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "06/05/2026 09:43:54",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926748",
+        "short_description": "Duplicate Application Notice",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 11:18:49",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925626",
+        "short_description": "Self Service Enrollment - Duplicate account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 14:11:35",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926548",
+        "short_description": "Enrollment Application Login",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 09:52:44",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923708",
+        "short_description": "Financial Aid Tab - Maintenance Issue Error",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "06/01/2026 13:35:25",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925538",
+        "short_description": "enrollment - commit to start missing",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 13:34:12",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926992",
+        "short_description": "Student is unable to login to the application portal to submit their application.",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 13:02:12",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925173",
+        "short_description": "Duplicate application error message",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 11:04:25",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926629",
+        "short_description": "Self Service Enrollment - Duplicate Account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 10:27:30",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927085",
+        "short_description": "Enrollment Portal - Duplicate Account Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 13:37:13",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924835",
+        "short_description": "Degree Plan - Issue accessing even though start date has passed",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 08:29:53",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923693",
+        "short_description": "Office Account Not Active",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 13:28:53",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928295",
+        "short_description": "Self Service Enrollment - Admissions Application - Not able to complete application - login credentials not working",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 12:11:55",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923206",
+        "short_description": "Feedback regarding background processes for eligibility questionaire",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 10:24:50",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927237",
+        "short_description": "Enrollment Portal - Duplicate account was found",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 14:49:52",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925767",
+        "short_description": "Enrollment - Duplicate account error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 15:11:50",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927118",
+        "short_description": "Self service enrollment- Duplicate account error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 13:48:48",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925577",
+        "short_description": "Self-Service Enrollment - Duplicate Accounts due to Case Sensitivity",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 13:52:27",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925287",
+        "short_description": "Self Service Enrollment - Duplicate account error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 11:45:17",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926511",
+        "short_description": "Enrollment -  Duplicate account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 09:31:49",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927138",
+        "short_description": "Self Enrollment Portal - Duplicate Account Issue",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 13:54:47",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927765",
+        "short_description": "Self Service Enrollment - Duplicate Issue",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 06:36:12",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924563",
+        "short_description": "(Retro) Self Service Enrollment - Test user redirected to /account-deactivated",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 01:53:40",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924236",
+        "short_description": "Self Service Enrollment - Program Expectations not updating",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 17:11:06",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926665",
+        "short_description": "Self service enrollment- Duplicate account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 10:43:16",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923100",
+        "short_description": "Start date not updating to AS for students starting on 6/1",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 09:50:56",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924624",
+        "short_description": "Banner Status - Stuck in AS",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 06:22:24",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927596",
+        "short_description": "Self Service Enrollment - Login Issues",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 18:34:59",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926371",
+        "short_description": "enrollment portal - duplicate account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 08:19:17",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925479",
+        "short_description": "Salesforce - Not Populating Application",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 13:14:52",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927058",
+        "short_description": "SSE Enrollment Portal - Access Issue - Duplicate Account Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 13:28:05",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926648",
+        "short_description": "Self Service Enrollment - Duplicate Account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 10:38:33",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927128",
+        "short_description": "Self Service Enrollment - Duplicate Account Detected",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 13:51:34",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923987",
+        "short_description": "Self Service Enrollment - Program Eligibility Requirements Completion Issue",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 15:03:25",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928563",
+        "short_description": "Self Service Enrollment - Transcripts never requested or returned",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 14:34:20",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927781",
+        "short_description": "Self Service Enrollment - Duplicate Account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 06:51:25",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926514",
+        "short_description": "Self service enrollment- Duplicate account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 09:34:33",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927586",
+        "short_description": "Enrollment - Student is having issues accessing the enrollment portal",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 18:24:34",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925761",
+        "short_description": "Universal Enrollment Support Request: Enrollment Account Creation",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 15:03:42",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926606",
+        "short_description": "Enrollment Portal - Duplicate Account Error",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 10:19:27",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923718",
+        "short_description": "Degree Plan - Account status preventing course start",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 13:39:07",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926857",
+        "short_description": "Unable to log in",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 12:08:02",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924746",
+        "short_description": "Enrollment - Active Student Status",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 07:44:05",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923494",
+        "short_description": "Office 365 - Permissions/Access Issue",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 12:10:02",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925096",
+        "short_description": "Self Service Enrollment - Duplicate Account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 10:27:02",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924909",
+        "short_description": "Duplicate Application",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 09:05:23",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928214",
+        "short_description": "Self Service Enrollment Portal - Commit To Start Missing",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 11:28:02",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923548",
+        "short_description": "Student Portal - Incorrect Program Concern",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 12:31:21",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924813",
+        "short_description": "Self Service Enrollment Portal - Duplicate account error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 08:22:03",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928590",
+        "short_description": "enrollment - commit to start",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 14:50:11",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924982",
+        "short_description": "Term Break student status not syncing in SRM",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 09:37:12",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928034",
+        "short_description": "Salesforce - Term CU count is incorrect",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "06/04/2026 09:58:01",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926917",
+        "short_description": "enrollment - duplicate account error due to capitalization",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 12:30:01",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925463",
+        "short_description": "SSE - Duplicate Account Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 13:08:39",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2929971",
+        "short_description": "Self Service Enrollment - Unable to Access Application and Enrollment Information Discrepancy",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/05/2026 20:53:45",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926944",
+        "short_description": "Self-Service Enrollment - Commit to start",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 12:44:15",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926249",
+        "short_description": "Self-Service Enrollment - Duplicate Accounts due to Case Sensitivity",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 06:47:41",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924989",
+        "short_description": "Degree Plan - Student Stuck In WE Status Causing Issues Setting Up Degree Plan",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 09:40:11",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923978",
+        "short_description": "Self Service Enrollment - Reviewing Program Change message",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 14:57:40",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927192",
+        "short_description": "Self Service Enrollment - Duplicate Account Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 14:19:57",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925962",
+        "short_description": "Self-Service Enrollment - Duplicate Accounts due to Case Sensitivity",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 17:04:07",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2925556",
+        "short_description": "SSE Enrollment Portal - Trouble logging in",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 13:43:01",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923430",
+        "short_description": "Degree Plan - Start course error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 11:48:26",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927434",
+        "short_description": "Self service enrollment- Duplicate",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 16:31:20",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928092",
+        "short_description": "SSE Enrollment - Duplicate account error",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 10:26:23",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923061",
+        "short_description": "Udemy - Assistance Accessing Udemy Business Account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 09:31:02",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926309",
+        "short_description": "Self-Service Enrollment - Duplicate Accounts due to Case Sensitivity",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 07:33:09",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928389",
+        "short_description": "Application for Admission - Assistance Accessing",
+        "priority": "P2 - High",
+        "priority_value": "2",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 13:07:05",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2929453",
+        "short_description": "Self-Service Enrollment - Commit to Start not showing",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/05/2026 11:56:01",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923085",
+        "short_description": "Udemy Business - not working yet",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 09:42:58",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924370",
+        "short_description": "SSE Enrollment Portal - Enrollment Portal  - Access Issue - Infinite loop ",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "In Progress",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 18:50:53",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926821",
+        "short_description": "Enrollment Portal - Commit To Start",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 11:52:51",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927608",
+        "short_description": "Self Service Enrollment - Duplicate Account Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 18:48:27",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2928279",
+        "short_description": "enrollment portal - duplicate account error",
+        "priority": "P3 - Medium",
+        "priority_value": "3",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 12:05:38",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2929546",
+        "short_description": "Financial Aid - Maintinance Error",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "06/05/2026 13:00:24",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2927915",
+        "short_description": "Self- Service enrollment- Duplicate account",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/04/2026 08:36:20",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2923404",
+        "short_description": "Microsoft- Account not active",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/01/2026 11:39:59",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924747",
+        "short_description": "Banner - Status Not Updating",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 07:44:18",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926313",
+        "short_description": "Flexible Degree Plan - Registered Courses",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "06/03/2026 07:40:05",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2924677",
+        "short_description": "Caseload - Continuing Grad not Showing",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/02/2026 06:59:39",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2926401",
+        "short_description": "Application- Not able to complete",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Closed/Complete",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/03/2026 08:37:21",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2929133",
+        "short_description": "Caseload - No Registration",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Financial Enablement",
+        "opened_at": "06/05/2026 08:30:34",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2929893",
+        "short_description": "Self-Service Enrollment - Commit to start not populating",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/05/2026 17:50:05",
+        "resolved_at": null
+      },
+      {
+        "number": "INC2929290",
+        "short_description": "Self Service Enrollment - Assistance Accessing",
+        "priority": "P4 - Low",
+        "priority_value": "4",
+        "state": "Pending Problem",
+        "assignment_group": "Enrollment Support & Ops",
+        "opened_at": "06/05/2026 10:25:23",
+        "resolved_at": null
+      }
+    ],
+    "major_incidents": [
+      {
+        "number": "MI0007336",
+        "short_description": "Self-Service Enrollment - Duplicate Accounts due to Case Sensitivity",
+        "priority": "Sev 3",
+        "state": "Closed",
+        "assignment_group": "Enrollment Support & Ops",
+        "group_sys_id": "cd8818701b80c4907f97337bcd4bcb35",
+        "opened_at": "06/02/2026 14:46:35",
+        "resolved_at": null
+      },
+      {
+        "number": "MI0007332",
+        "short_description": "Student Status in Salesforce not updating for students with 6/1 start dates",
+        "priority": "Sev 2",
+        "state": "Closed",
+        "assignment_group": "Enrollment Support & Ops",
+        "group_sys_id": "cd8818701b80c4907f97337bcd4bcb35",
+        "opened_at": "06/01/2026 10:13:38",
+        "resolved_at": null
+      },
+      {
+        "number": "MI0007330",
+        "short_description": "Select My Financial Aid Plan - Maintenance Issue Message",
+        "priority": "Sev 3",
+        "state": "Investigating",
+        "assignment_group": "Financial Enablement",
+        "group_sys_id": "c0de17e81b8c84907f97337bcd4bcbad",
+        "opened_at": "06/01/2026 07:06:02",
+        "resolved_at": null
+      }
+    ],
+    "summary": {
+      "week_start": "2026-06-01 00:00:00",
+      "week_end": "2026-06-07 23:59:59",
+      "regular_incident_count": 98,
+      "major_incident_count": 3,
+      "regular_by_severity": {
+        "1": 0,
+        "2": 3,
+        "3": 9,
+        "4": 86
+      },
+      "mi_by_severity": {
+        "Sev 1": 0,
+        "Sev 2": 1,
+        "Sev 3": 2,
+        "Sev 4": 0
+      },
+      "mttr_hours": null
+    }
+  },
+  "errors": []
+}

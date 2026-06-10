@@ -1,0 +1,159 @@
+{
+  "source": "etrc",
+  "collected_at": "2026-06-09T17:04:36.113108+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-06-09T17:04:36.113108+00:00"
+    },
+    "groups": [
+      {
+        "group_name": "Enrollment Support & Ops",
+        "group_sys_id": "cd8818701b80c4907f97337bcd4bcb35",
+        "total_score": 0.4,
+        "grade": "F",
+        "components": [
+          {
+            "name": "Major Days Breached",
+            "value": 155.0,
+            "weight": 0.4,
+            "passing_threshold": 25.0,
+            "passing": false,
+            "grade": "F",
+            "score": 0.0
+          },
+          {
+            "name": "MI Error Budget",
+            "value": 50.0,
+            "weight": 0.4,
+            "passing_threshold": 15.0,
+            "passing": false,
+            "grade": "D",
+            "score": 1.0
+          },
+          {
+            "name": "Minor Days Breached",
+            "value": 1800.0,
+            "weight": 0.2,
+            "passing_threshold": 250.0,
+            "passing": false,
+            "grade": "F",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "group_name": "Financial Enablement",
+        "group_sys_id": "c0de17e81b8c84907f97337bcd4bcbad",
+        "total_score": 3.6,
+        "grade": "A",
+        "components": [
+          {
+            "name": "Major Days Breached",
+            "value": 15.0,
+            "weight": 0.4,
+            "passing_threshold": 25.0,
+            "passing": true,
+            "grade": "A",
+            "score": 4.0
+          },
+          {
+            "name": "MI Error Budget",
+            "value": 25.0,
+            "weight": 0.4,
+            "passing_threshold": 15.0,
+            "passing": false,
+            "grade": "B",
+            "score": 3.0
+          },
+          {
+            "name": "Minor Days Breached",
+            "value": 100.0,
+            "weight": 0.2,
+            "passing_threshold": 250.0,
+            "passing": true,
+            "grade": "A",
+            "score": 4.0
+          }
+        ]
+      },
+      {
+        "group_name": "Pre",
+        "group_sys_id": "9c1c30801bc404907f97337bcd4bcb74",
+        "total_score": 2.8,
+        "grade": "B",
+        "components": [
+          {
+            "name": "Major Days Breached",
+            "value": 30.0,
+            "weight": 0.4,
+            "passing_threshold": 25.0,
+            "passing": false,
+            "grade": "B",
+            "score": 3.0
+          },
+          {
+            "name": "MI Error Budget",
+            "value": 0.0,
+            "weight": 0.4,
+            "passing_threshold": 15.0,
+            "passing": true,
+            "grade": "A",
+            "score": 4.0
+          },
+          {
+            "name": "Minor Days Breached",
+            "value": 1575.0,
+            "weight": 0.2,
+            "passing_threshold": 250.0,
+            "passing": false,
+            "grade": "F",
+            "score": 0.0
+          }
+        ]
+      },
+      {
+        "group_name": "Post",
+        "group_sys_id": "58d26bec1b8c84907f97337bcd4bcb44",
+        "total_score": 2.4,
+        "grade": "C",
+        "components": [
+          {
+            "name": "Major Days Breached",
+            "value": 120.0,
+            "weight": 0.4,
+            "passing_threshold": 25.0,
+            "passing": false,
+            "grade": "F",
+            "score": 0.0
+          },
+          {
+            "name": "MI Error Budget",
+            "value": 0.0,
+            "weight": 0.4,
+            "passing_threshold": 15.0,
+            "passing": true,
+            "grade": "A",
+            "score": 4.0
+          },
+          {
+            "name": "Minor Days Breached",
+            "value": 125.0,
+            "weight": 0.2,
+            "passing_threshold": 250.0,
+            "passing": true,
+            "grade": "A",
+            "score": 4.0
+          }
+        ]
+      }
+    ],
+    "sls_overall": {
+      "group_name": "Student Lifecycle Services",
+      "group_sys_id": "271d70142b2ff290b51ff3a3d891bf30",
+      "total_score": 2.3,
+      "grade": "C",
+      "components": []
+    }
+  },
+  "errors": []
+}

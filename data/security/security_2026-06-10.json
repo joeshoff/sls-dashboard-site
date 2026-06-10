@@ -1,0 +1,256 @@
+{
+  "source": "security",
+  "collected_at": "2026-06-09T17:04:59.893938+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-06-09T17:04:59.893938+00:00"
+    },
+    "groups": [
+      {
+        "group_name": "Enrollment Support & Ops",
+        "group_sys_id": "cd8818701b80c4907f97337bcd4bcb35",
+        "total_score": 3.0,
+        "grade": "C",
+        "components": [
+          {
+            "name": "Vulnerability",
+            "penalty": -2.0,
+            "details": {
+              "critical": 0.0,
+              "high": -2.0,
+              "medium": 0.0
+            }
+          },
+          {
+            "name": "Audit",
+            "penalty": 0.0,
+            "details": {
+              "critical": 0.0,
+              "high": 0.0,
+              "medium": 0.0
+            }
+          },
+          {
+            "name": "Exceptions",
+            "penalty": 0.0,
+            "details": {
+              "breached": 0,
+              "open": 0
+            }
+          },
+          {
+            "name": "Incidents",
+            "penalty": 0.0,
+            "details": {
+              "open_critical": 0
+            }
+          }
+        ]
+      },
+      {
+        "group_name": "Financial Enablement",
+        "group_sys_id": "c0de17e81b8c84907f97337bcd4bcbad",
+        "total_score": 3.0,
+        "grade": "C",
+        "components": [
+          {
+            "name": "Vulnerability",
+            "penalty": -2.0,
+            "details": {
+              "critical": -2.0,
+              "high": 0.0,
+              "medium": 0.0
+            }
+          },
+          {
+            "name": "Audit",
+            "penalty": 0.0,
+            "details": {
+              "critical": 0.0,
+              "high": 0.0,
+              "medium": 0.0
+            }
+          },
+          {
+            "name": "Exceptions",
+            "penalty": 0.0,
+            "details": {
+              "breached": 0,
+              "open": 0
+            }
+          },
+          {
+            "name": "Incidents",
+            "penalty": 0.0,
+            "details": {
+              "open_critical": 0
+            }
+          }
+        ]
+      },
+      {
+        "group_name": "Pre",
+        "group_sys_id": "9c1c30801bc404907f97337bcd4bcb74",
+        "total_score": 5.0,
+        "grade": "A",
+        "components": [
+          {
+            "name": "Vulnerability",
+            "penalty": 0.0,
+            "details": {
+              "critical": 0.0,
+              "high": 0.0,
+              "medium": 0.0
+            }
+          },
+          {
+            "name": "Audit",
+            "penalty": 0.0,
+            "details": {
+              "critical": 0.0,
+              "high": 0.0,
+              "medium": 0.0
+            }
+          },
+          {
+            "name": "Exceptions",
+            "penalty": 0.0,
+            "details": {
+              "breached": 0,
+              "open": 0
+            }
+          },
+          {
+            "name": "Incidents",
+            "penalty": 0.0,
+            "details": {
+              "open_critical": 0
+            }
+          }
+        ]
+      },
+      {
+        "group_name": "Post",
+        "group_sys_id": "58d26bec1b8c84907f97337bcd4bcb44",
+        "total_score": 3.0,
+        "grade": "C",
+        "components": [
+          {
+            "name": "Vulnerability",
+            "penalty": -2.0,
+            "details": {
+              "critical": -2.0,
+              "high": 0.0,
+              "medium": 0.0
+            }
+          },
+          {
+            "name": "Audit",
+            "penalty": 0.0,
+            "details": {
+              "critical": 0.0,
+              "high": 0.0,
+              "medium": 0.0
+            }
+          },
+          {
+            "name": "Exceptions",
+            "penalty": 0.0,
+            "details": {
+              "breached": 0,
+              "open": 0
+            }
+          },
+          {
+            "name": "Incidents",
+            "penalty": 0.0,
+            "details": {
+              "open_critical": 0
+            }
+          }
+        ]
+      }
+    ],
+    "wgu_aggregate": {
+      "total_score": 0.0,
+      "grade": "F",
+      "components": [
+        {
+          "name": "Vulnerability",
+          "penalty": -14.0
+        },
+        {
+          "name": "Audit",
+          "penalty": -9.0
+        },
+        {
+          "name": "Exceptions",
+          "penalty": -7.0
+        },
+        {
+          "name": "Incidents",
+          "penalty": -5.0
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-27",
+          "score": 0.0
+        },
+        {
+          "date": "2026-05-28",
+          "score": 0.0
+        },
+        {
+          "date": "2026-05-29",
+          "score": 0.0
+        },
+        {
+          "date": "2026-05-30",
+          "score": 0.0
+        },
+        {
+          "date": "2026-05-31",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-01",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-02",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-03",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-04",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-05",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-06",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-07",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-08",
+          "score": 0.0
+        },
+        {
+          "date": "2026-06-09",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "errors": []
+}

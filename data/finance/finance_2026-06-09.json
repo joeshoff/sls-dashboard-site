@@ -1,0 +1,39 @@
+{
+  "source": "/Users/joe.hoff/Library/CloudStorage/OneDrive-WesternGovernorsUniversity/Student Lifecycle Services-50-PE-11-Leadership (Private) - Documents/SLS_Reporting.v1 -Tech (April Fy26).xlsx",
+  "collected_at": "2026-06-09T22:32:17.669750+00:00",
+  "data": {
+    "entity_name": "1235 Student Lifecycle Services Tech",
+    "period": "Apr-2026",
+    "categories": [
+      {
+        "name": "Total Labor Costs",
+        "mtd_actual": 1615712.5499999998,
+        "budget": 1353528.9263858823,
+        "variance_dollar": 262183.6236141175,
+        "variance_percent": 0.1937037461875201
+      },
+      {
+        "name": "Total Non-Labor Costs",
+        "mtd_actual": 560374.56,
+        "budget": 543611.417994461,
+        "variance_dollar": 16763.142005539034,
+        "variance_percent": 0.030836626035897277
+      },
+      {
+        "name": "Total Other Expenses",
+        "mtd_actual": 3887.19,
+        "budget": 89583.79,
+        "variance_dollar": -85696.59999999999,
+        "variance_percent": -0.9566083328244986
+      },
+      {
+        "name": "Gross Expenditures",
+        "mtd_actual": 2176087.11,
+        "budget": 1897140.3443803433,
+        "variance_dollar": 278946.76561965654,
+        "variance_percent": 0.14703538746932715
+      }
+    ]
+  },
+  "errors": []
+}

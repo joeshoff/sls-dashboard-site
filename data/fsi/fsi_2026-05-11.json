@@ -1,0 +1,44 @@
+{
+  "source": "fsi",
+  "collected_at": "2026-05-17T10:00:00+00:00",
+  "data": {
+    "metadata": {
+      "collected_at": "2026-05-17T10:00:00+00:00",
+      "week_ending": "2026-05-17"
+    },
+    "composite": {
+      "score": 20,
+      "status": "stable"
+    },
+    "pillars": {
+      "availability": {
+        "score": 4,
+        "weight": 0.5,
+        "contribution": 2.0,
+        "status": "optimal",
+        "actual_pct": 99.58
+      },
+      "incidents": {
+        "score": 52,
+        "weight": 0.2,
+        "contribution": 10.4,
+        "status": "severe"
+      },
+      "sessions": {
+        "score": 18,
+        "weight": 0.15,
+        "contribution": 2.7,
+        "status": "stable",
+        "apdex": 0.74,
+        "session_count": 920000
+      },
+      "performance": {
+        "score": 14,
+        "weight": 0.15,
+        "contribution": 2.1,
+        "status": "stable"
+      }
+    }
+  },
+  "errors": []
+}

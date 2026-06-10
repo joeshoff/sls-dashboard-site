@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-06-01T00:30:00+00:00",
+  "collectors": {
+    "fsi": {
+      "latest": "data/fsi/fsi_2026-06-10.json",
+      "collected_at": "2026-06-09T17:04:36.111816+00:00"
+    },
+    "etrc": {
+      "latest": "data/etrc/etrc_2026-06-10.json",
+      "collected_at": "2026-06-09T17:04:57.101586+00:00"
+    },
+    "incidents": {
+      "latest": "data/incidents/incidents_2026-06-10.json",
+      "collected_at": "2026-06-09T17:04:59.684488+00:00"
+    },
+    "insights": {
+      "latest": "data/insights/insights_2026-06-10.json",
+      "collected_at": "2026-06-09T17:12:24.041497+00:00"
+    },
+    "reddit": {
+      "latest": "data/reddit/reddit_2026-06-09.json",
+      "collected_at": "2026-06-09T19:54:57.800650+00:00"
+    },
+    "security": {
+      "latest": "data/security/security_2026-06-10.json",
+      "collected_at": "2026-06-09T17:09:45.274835+00:00"
+    },
+    "finance": {
+      "latest": "data/finance/finance_2026-06-09.json",
+      "collected_at": "2026-06-09T22:32:17.669750+00:00"
+    }
+  }
+}
